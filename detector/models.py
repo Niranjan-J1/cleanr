@@ -1,15 +1,13 @@
-#finds the issues that go into the cleaning report
-
-
-from dataclasses import dataclass,field 
-from typing import List, Optional 
-from enum import Enum 
+from dataclasses import dataclass, field
+from typing import List, Optional
+from enum import Enum
 
 
 class Severity(Enum):
     HIGH   = "HIGH"
     MEDIUM = "MEDIUM"
     LOW    = "LOW"
+
 
 class IssueType(Enum):
     MISSING_VALUES         = "MISSING_VALUES"
@@ -25,31 +23,52 @@ class IssueType(Enum):
     NUMERIC_AS_STRING      = "NUMERIC_AS_STRING"
     HEADER_ISSUES          = "HEADER_ISSUES"
 
-@dataclass 
+
+class FixTier(Enum):
+    AUTO      = "AUTO"      # fix silently, no user input needed
+    SUGGEST   = "SUGGEST"   # show options, user picks one
+    FLAG_ONLY = "FLAG_ONLY" # just surface it, we don't touch it
+
+
+@dataclass
+class FixOption:
+    # One selectable option shown to the user for SUGGEST tier issues
+    label:       str    # e.g. "Fill with median (25.0)"
+    action:      str    # e.g. "fill_median"
+    preview:     str    # e.g. "25.0"
+
+
+@dataclass
 class Issue:
     issue_type:     IssueType
-    column:         Optional[str]      # None if row-level issue (e.g. duplicates)
+    column:         Optional[str]
     severity:       Severity
+    fix_tier:       FixTier
     affected_rows:  int
     total_rows:     int
-    examples:       List[str]          # sample bad values so user can see them
-    suggested_fix:  str                # human readable description of fix
-    confidence:     float              # 0.0 - 1.0
-    auto_fixable:   bool = True        # can we fix this without user input?
+    examples:       List[str]
+    suggested_fix:  str
+    confidence:     float
+    fix_options:    List[FixOption] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return {
             "issue_type":    self.issue_type.value,
             "column":        self.column,
             "severity":      self.severity.value,
+            "fix_tier":      self.fix_tier.value,
             "affected_rows": self.affected_rows,
             "total_rows":    self.total_rows,
             "affected_pct":  round(self.affected_rows / self.total_rows * 100, 1),
             "examples":      self.examples,
             "suggested_fix": self.suggested_fix,
             "confidence":    self.confidence,
-            "auto_fixable":  self.auto_fixable,
+            "fix_options":   [
+                {"label": o.label, "action": o.action, "preview": o.preview}
+                for o in self.fix_options
+            ],
         }
+
 
 @dataclass
 class CleaningReport:
@@ -69,4 +88,4 @@ class CleaningReport:
             "total_issues":  len(self.issues),
             "issues":        [i.to_dict() for i in self.issues],
             "processing_ms": self.processing_ms,
-        }   
+        }

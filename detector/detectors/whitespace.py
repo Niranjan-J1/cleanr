@@ -1,10 +1,7 @@
-# Detects leading/trailing whitespace and invisible characters.
-# These cause silent bugs — "John " != "John" in joins and lookups.
-
 from typing import List
 import pandas as pd
 from detector.detectors.base import BaseDetector
-from detector.models import Issue, IssueType, Severity
+from detector.models import Issue, IssueType, Severity, FixTier
 
 class WhitespaceDetector(BaseDetector):
 
@@ -17,29 +14,26 @@ class WhitespaceDetector(BaseDetector):
             if len(series) == 0:
                 continue
 
-            # Find values that have leading or trailing whitespace
             whitespace_mask = series != series.str.strip()
-            affected = whitespace_mask.sum()
+            affected        = whitespace_mask.sum()
 
             if affected == 0:
                 continue
 
             examples = list(
-                series[whitespace_mask]
-                .head(5)
-                .apply(lambda v: repr(v))  # repr shows the spaces clearly e.g. 'John '
+                series[whitespace_mask].head(5).apply(lambda v: repr(v))
             )
 
             issues.append(Issue(
                 issue_type    = IssueType.WHITESPACE,
                 column        = col,
                 severity      = Severity.LOW,
+                fix_tier      = FixTier.AUTO,
                 affected_rows = int(affected),
                 total_rows    = self.total_rows,
                 examples      = examples,
-                suggested_fix = f"Strip leading/trailing whitespace from {affected} values in '{col}'",
+                suggested_fix = f"Strip whitespace from {affected} values in '{col}'",
                 confidence    = 1.0,
-                auto_fixable  = True,
             ))
 
         return issues
