@@ -7,10 +7,16 @@ from typing import Optional
 from detector.models import CleaningReport
 from detector.detectors.missing_values import MissingValuesDetector
 from detector.detectors.duplicate_rows import DuplicateRowsDetector
+from detector.detectors.date_format import DateFormatDetector
+from detector.detectors.mixed_types import MixedTypesDetector
+from detector.detectors.whitespace import WhitespaceDetector
 
 DETECTORS = [
     MissingValuesDetector,
     DuplicateRowsDetector,
+    DateFormatDetector,
+    MixedTypesDetector,
+    WhitespaceDetector,
 ]
 
 def analyze_csv(filepath: str, filename: str, job_id: Optional[str] = None) -> CleaningReport:
