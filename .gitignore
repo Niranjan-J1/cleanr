@@ -1,0 +1,13 @@
+@"
+engine/bin/
+engine/build/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+node_modules/
+frontend/dist/
+.terraform/
+*.tfstate
+*.tfstate.backup
+"@ | Out-File -FilePath .gitignore -Encoding utf8
