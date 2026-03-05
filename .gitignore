@@ -11,3 +11,4 @@ frontend/dist/
 *.tfstate
 *.tfstate.backup
 "@ | Out-File -FilePath .gitignore -Encoding utf8
+storage/
