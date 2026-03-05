@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine
+CMAKE_SOURCE_DIR = C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine\build
+CMAKE_BINARY_DIR = C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine\build\CMakeFiles C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/nn/layer.obj: src/nn/layer.cpp.obj
+.PHONY : src/nn/layer.obj
+
+# target to build an object file
+src/nn/layer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj
+.PHONY : src/nn/layer.cpp.obj
+
+src/nn/layer.i: src/nn/layer.cpp.i
+.PHONY : src/nn/layer.i
+
+# target to preprocess a source file
+src/nn/layer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.i
+.PHONY : src/nn/layer.cpp.i
+
+src/nn/layer.s: src/nn/layer.cpp.s
+.PHONY : src/nn/layer.s
+
+# target to generate assembly for a file
+src/nn/layer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.s
+.PHONY : src/nn/layer.cpp.s
+
+src/nn/matrix.obj: src/nn/matrix.cpp.obj
+.PHONY : src/nn/matrix.obj
+
+# target to build an object file
+src/nn/matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj
+.PHONY : src/nn/matrix.cpp.obj
+
+src/nn/matrix.i: src/nn/matrix.cpp.i
+.PHONY : src/nn/matrix.i
+
+# target to preprocess a source file
+src/nn/matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.i
+.PHONY : src/nn/matrix.cpp.i
+
+src/nn/matrix.s: src/nn/matrix.cpp.s
+.PHONY : src/nn/matrix.s
+
+# target to generate assembly for a file
+src/nn/matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.s
+.PHONY : src/nn/matrix.cpp.s
+
+src/nn/network.obj: src/nn/network.cpp.obj
+.PHONY : src/nn/network.obj
+
+# target to build an object file
+src/nn/network.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj
+.PHONY : src/nn/network.cpp.obj
+
+src/nn/network.i: src/nn/network.cpp.i
+.PHONY : src/nn/network.i
+
+# target to preprocess a source file
+src/nn/network.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.i
+.PHONY : src/nn/network.cpp.i
+
+src/nn/network.s: src/nn/network.cpp.s
+.PHONY : src/nn/network.s
+
+# target to generate assembly for a file
+src/nn/network.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.s
+.PHONY : src/nn/network.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +236,15 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/nn/layer.obj
+	@echo ... src/nn/layer.i
+	@echo ... src/nn/layer.s
+	@echo ... src/nn/matrix.obj
+	@echo ... src/nn/matrix.i
+	@echo ... src/nn/matrix.s
+	@echo ... src/nn/network.obj
+	@echo ... src/nn/network.i
+	@echo ... src/nn/network.s
 .PHONY : help
 
 

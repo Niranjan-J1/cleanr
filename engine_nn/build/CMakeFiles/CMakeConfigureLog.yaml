@@ -27,7 +27,11 @@ events:
     names:
       - "mingw32-make.exe"
     candidate_directories:
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -37,16 +41,28 @@ events:
       - "C:/MinGW/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
       - "/REGISTRY-NOTFOUND/MinGW/bin/"
     searched_directories:
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/mingw32-make.exe.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/mingw32-make.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mingw32-make.exe.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mingw32-make.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/mingw32-make.exe.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/mingw32-make.exe"
+      - "C:/Python314/Scripts/mingw32-make.exe.com"
+      - "C:/Python314/Scripts/mingw32-make.exe"
+      - "C:/Python314/mingw32-make.exe.com"
+      - "C:/Python314/mingw32-make.exe"
       - "C:/ARM GNU/bin/mingw32-make.exe.com"
       - "C:/ARM GNU/bin/mingw32-make.exe"
       - "C:/Windows/mingw32-make.exe.com"
@@ -63,7 +79,26 @@ events:
     found: "C:/MinGW/bin/mingw32-make.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -76,6 +111,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -101,7 +140,11 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -111,10 +154,32 @@ events:
       - "C:/MinGW/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/c++.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/c++.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/c++"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/g++.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/g++.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/g++"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/cl.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/cl.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/cl"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/bcc.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/bcc.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/bcc"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/icx.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/icx.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/icx"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/clang++.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/clang++.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/clang++"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/c++.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/c++.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/c++"
@@ -133,6 +198,60 @@ events:
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang++.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang++.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang++"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/c++.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/c++.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/c++"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/g++.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/g++.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/g++"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/cl.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/cl.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/cl"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bcc.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bcc.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bcc"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/icx.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/icx.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/icx"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/clang++.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/clang++.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/clang++"
+      - "C:/Python314/Scripts/c++.com"
+      - "C:/Python314/Scripts/c++.exe"
+      - "C:/Python314/Scripts/c++"
+      - "C:/Python314/Scripts/g++.com"
+      - "C:/Python314/Scripts/g++.exe"
+      - "C:/Python314/Scripts/g++"
+      - "C:/Python314/Scripts/cl.com"
+      - "C:/Python314/Scripts/cl.exe"
+      - "C:/Python314/Scripts/cl"
+      - "C:/Python314/Scripts/bcc.com"
+      - "C:/Python314/Scripts/bcc.exe"
+      - "C:/Python314/Scripts/bcc"
+      - "C:/Python314/Scripts/icx.com"
+      - "C:/Python314/Scripts/icx.exe"
+      - "C:/Python314/Scripts/icx"
+      - "C:/Python314/Scripts/clang++.com"
+      - "C:/Python314/Scripts/clang++.exe"
+      - "C:/Python314/Scripts/clang++"
+      - "C:/Python314/c++.com"
+      - "C:/Python314/c++.exe"
+      - "C:/Python314/c++"
+      - "C:/Python314/g++.com"
+      - "C:/Python314/g++.exe"
+      - "C:/Python314/g++"
+      - "C:/Python314/cl.com"
+      - "C:/Python314/cl.exe"
+      - "C:/Python314/cl"
+      - "C:/Python314/bcc.com"
+      - "C:/Python314/bcc.exe"
+      - "C:/Python314/bcc"
+      - "C:/Python314/icx.com"
+      - "C:/Python314/icx.exe"
+      - "C:/Python314/icx"
+      - "C:/Python314/clang++.com"
+      - "C:/Python314/clang++.exe"
+      - "C:/Python314/clang++"
       - "C:/ARM GNU/bin/c++.com"
       - "C:/ARM GNU/bin/c++.exe"
       - "C:/ARM GNU/bin/c++"
@@ -245,7 +364,26 @@ events:
     found: "C:/MinGW/bin/c++.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -258,6 +396,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -285,7 +427,26 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -298,6 +459,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -318,7 +483,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/4.2.1/CompilerIdCXX/a.exe
+        C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/4.2.1/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -341,7 +506,11 @@ events:
       - "ar"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -350,15 +519,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/ar.com"
     found: "C:/MinGW/bin/ar.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -371,6 +563,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -392,7 +588,11 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -401,15 +601,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/ranlib.com"
     found: "C:/MinGW/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -422,6 +645,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -443,7 +670,11 @@ events:
       - "strip"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -452,15 +683,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/strip.com"
     found: "C:/MinGW/bin/strip.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -473,6 +727,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -494,7 +752,11 @@ events:
       - "ld"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -503,15 +765,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/ld.com"
     found: "C:/MinGW/bin/ld.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -524,6 +809,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -545,7 +834,11 @@ events:
       - "nm"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -554,15 +847,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/nm.com"
     found: "C:/MinGW/bin/nm.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -575,6 +891,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -596,7 +916,11 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -605,15 +929,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/objdump.com"
     found: "C:/MinGW/bin/objdump.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -626,6 +973,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -647,7 +998,11 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -656,15 +1011,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/objcopy.com"
     found: "C:/MinGW/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -677,6 +1055,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -698,7 +1080,11 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -707,15 +1093,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/readelf.com"
     found: "C:/MinGW/bin/readelf.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -728,6 +1137,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -749,7 +1162,11 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -758,15 +1175,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/dlltool.com"
     found: "C:/MinGW/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -779,6 +1219,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -800,7 +1244,11 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -809,15 +1257,38 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/addr2line.com"
     found: "C:/MinGW/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -830,6 +1301,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -851,7 +1326,11 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -860,16 +1339,32 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/tapi.com"
       - "C:/MinGW/bin/tapi.exe"
       - "C:/MinGW/bin/tapi"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/tapi.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/tapi.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/tapi"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/tapi.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/tapi.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/tapi"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/tapi.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/tapi"
+      - "C:/Python314/Scripts/tapi.com"
+      - "C:/Python314/Scripts/tapi.exe"
+      - "C:/Python314/Scripts/tapi"
+      - "C:/Python314/tapi.com"
+      - "C:/Python314/tapi.exe"
+      - "C:/Python314/tapi"
       - "C:/ARM GNU/bin/tapi.com"
       - "C:/ARM GNU/bin/tapi.exe"
       - "C:/ARM GNU/bin/tapi"
@@ -894,6 +1389,15 @@ events:
       - "C:/Program Files/CMake/bin/tapi.com"
       - "C:/Program Files/CMake/bin/tapi.exe"
       - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/ProgramData/chocolatey/bin/tapi.com"
+      - "C:/ProgramData/chocolatey/bin/tapi.exe"
+      - "C:/ProgramData/chocolatey/bin/tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/tapi.com"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/tapi.exe"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/tapi"
@@ -903,10 +1407,32 @@ events:
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -919,6 +1445,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -943,7 +1473,11 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -952,16 +1486,32 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ar-6.3.com"
       - "C:/MinGW/bin/gcc-ar-6.3.exe"
       - "C:/MinGW/bin/gcc-ar-6.3"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar-6.3.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar-6.3.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar-6.3"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar-6.3.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar-6.3.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar-6.3"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3"
+      - "C:/Python314/Scripts/gcc-ar-6.3.com"
+      - "C:/Python314/Scripts/gcc-ar-6.3.exe"
+      - "C:/Python314/Scripts/gcc-ar-6.3"
+      - "C:/Python314/gcc-ar-6.3.com"
+      - "C:/Python314/gcc-ar-6.3.exe"
+      - "C:/Python314/gcc-ar-6.3"
       - "C:/ARM GNU/bin/gcc-ar-6.3.com"
       - "C:/ARM GNU/bin/gcc-ar-6.3.exe"
       - "C:/ARM GNU/bin/gcc-ar-6.3"
@@ -986,6 +1536,15 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar-6.3.com"
       - "C:/Program Files/CMake/bin/gcc-ar-6.3.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-6.3"
+      - "C:/Program Files/nodejs/gcc-ar-6.3.com"
+      - "C:/Program Files/nodejs/gcc-ar-6.3.exe"
+      - "C:/Program Files/nodejs/gcc-ar-6.3"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.3.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.3.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-6.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-6.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-6.3"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar-6.3.com"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar-6.3.exe"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar-6.3"
@@ -995,12 +1554,27 @@ events:
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.com"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.exe"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.com"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.exe"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3"
       - "C:/MinGW/bin/gcc-ar-6.com"
       - "C:/MinGW/bin/gcc-ar-6.exe"
       - "C:/MinGW/bin/gcc-ar-6"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar-6.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar-6.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar-6"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar-6.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar-6.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar-6"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6"
+      - "C:/Python314/Scripts/gcc-ar-6.com"
+      - "C:/Python314/Scripts/gcc-ar-6.exe"
+      - "C:/Python314/Scripts/gcc-ar-6"
+      - "C:/Python314/gcc-ar-6.com"
+      - "C:/Python314/gcc-ar-6.exe"
+      - "C:/Python314/gcc-ar-6"
       - "C:/ARM GNU/bin/gcc-ar-6.com"
       - "C:/ARM GNU/bin/gcc-ar-6.exe"
       - "C:/ARM GNU/bin/gcc-ar-6"
@@ -1025,6 +1599,15 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar-6.com"
       - "C:/Program Files/CMake/bin/gcc-ar-6.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-6"
+      - "C:/Program Files/nodejs/gcc-ar-6.com"
+      - "C:/Program Files/nodejs/gcc-ar-6.exe"
+      - "C:/Program Files/nodejs/gcc-ar-6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-6.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-6.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-6"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar-6.com"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar-6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar-6"
@@ -1034,12 +1617,27 @@ events:
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.com"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.com"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.exe"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6"
       - "C:/MinGW/bin/gcc-ar6.com"
       - "C:/MinGW/bin/gcc-ar6.exe"
       - "C:/MinGW/bin/gcc-ar6"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar6.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar6.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ar6"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar6.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar6.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ar6"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar6.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar6.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ar6"
+      - "C:/Python314/Scripts/gcc-ar6.com"
+      - "C:/Python314/Scripts/gcc-ar6.exe"
+      - "C:/Python314/Scripts/gcc-ar6"
+      - "C:/Python314/gcc-ar6.com"
+      - "C:/Python314/gcc-ar6.exe"
+      - "C:/Python314/gcc-ar6"
       - "C:/ARM GNU/bin/gcc-ar6.com"
       - "C:/ARM GNU/bin/gcc-ar6.exe"
       - "C:/ARM GNU/bin/gcc-ar6"
@@ -1064,6 +1662,15 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar6.com"
       - "C:/Program Files/CMake/bin/gcc-ar6.exe"
       - "C:/Program Files/CMake/bin/gcc-ar6"
+      - "C:/Program Files/nodejs/gcc-ar6.com"
+      - "C:/Program Files/nodejs/gcc-ar6.exe"
+      - "C:/Program Files/nodejs/gcc-ar6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar6"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar6.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar6.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar6"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar6.com"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ar6"
@@ -1073,11 +1680,33 @@ events:
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.com"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.com"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.exe"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6"
       - "C:/MinGW/bin/gcc-ar.com"
     found: "C:/MinGW/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1090,6 +1719,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1114,7 +1747,11 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/MinGW/bin/"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1123,16 +1760,32 @@ events:
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ranlib-6.3.com"
       - "C:/MinGW/bin/gcc-ranlib-6.3.exe"
       - "C:/MinGW/bin/gcc-ranlib-6.3"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib-6.3.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib-6.3.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib-6.3"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib-6.3.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib-6.3.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib-6.3"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3"
+      - "C:/Python314/Scripts/gcc-ranlib-6.3.com"
+      - "C:/Python314/Scripts/gcc-ranlib-6.3.exe"
+      - "C:/Python314/Scripts/gcc-ranlib-6.3"
+      - "C:/Python314/gcc-ranlib-6.3.com"
+      - "C:/Python314/gcc-ranlib-6.3.exe"
+      - "C:/Python314/gcc-ranlib-6.3"
       - "C:/ARM GNU/bin/gcc-ranlib-6.3.com"
       - "C:/ARM GNU/bin/gcc-ranlib-6.3.exe"
       - "C:/ARM GNU/bin/gcc-ranlib-6.3"
@@ -1157,6 +1810,15 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-6.3"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.3.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.3.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-6.3"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib-6.3.com"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib-6.3.exe"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib-6.3"
@@ -1166,12 +1828,27 @@ events:
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.com"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.exe"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.com"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.exe"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3"
       - "C:/MinGW/bin/gcc-ranlib-6.com"
       - "C:/MinGW/bin/gcc-ranlib-6.exe"
       - "C:/MinGW/bin/gcc-ranlib-6"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib-6.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib-6.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib-6"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib-6.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib-6.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib-6"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6"
+      - "C:/Python314/Scripts/gcc-ranlib-6.com"
+      - "C:/Python314/Scripts/gcc-ranlib-6.exe"
+      - "C:/Python314/Scripts/gcc-ranlib-6"
+      - "C:/Python314/gcc-ranlib-6.com"
+      - "C:/Python314/gcc-ranlib-6.exe"
+      - "C:/Python314/gcc-ranlib-6"
       - "C:/ARM GNU/bin/gcc-ranlib-6.com"
       - "C:/ARM GNU/bin/gcc-ranlib-6.exe"
       - "C:/ARM GNU/bin/gcc-ranlib-6"
@@ -1196,6 +1873,15 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib-6.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-6.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-6"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-6.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-6.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-6"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib-6.com"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib-6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib-6"
@@ -1205,12 +1891,27 @@ events:
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.com"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.com"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.exe"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6"
       - "C:/MinGW/bin/gcc-ranlib6.com"
       - "C:/MinGW/bin/gcc-ranlib6.exe"
       - "C:/MinGW/bin/gcc-ranlib6"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib6.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib6.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/gcc-ranlib6"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib6.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib6.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gcc-ranlib6"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6"
+      - "C:/Python314/Scripts/gcc-ranlib6.com"
+      - "C:/Python314/Scripts/gcc-ranlib6.exe"
+      - "C:/Python314/Scripts/gcc-ranlib6"
+      - "C:/Python314/gcc-ranlib6.com"
+      - "C:/Python314/gcc-ranlib6.exe"
+      - "C:/Python314/gcc-ranlib6"
       - "C:/ARM GNU/bin/gcc-ranlib6.com"
       - "C:/ARM GNU/bin/gcc-ranlib6.exe"
       - "C:/ARM GNU/bin/gcc-ranlib6"
@@ -1235,6 +1936,15 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib6.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib6.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib6"
+      - "C:/Program Files/nodejs/gcc-ranlib6.com"
+      - "C:/Program Files/nodejs/gcc-ranlib6.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib6"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib6.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib6.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib6"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib6.com"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/gcc-ranlib6"
@@ -1244,11 +1954,33 @@ events:
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.com"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.exe"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.com"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.exe"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6"
       - "C:/MinGW/bin/gcc-ranlib.com"
     found: "C:/MinGW/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1261,6 +1993,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1284,7 +2020,11 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
       - "C:/ARM GNU/bin/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1294,9 +2034,13 @@ events:
       - "C:/MinGW/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/niran/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/niran/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/niran/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1310,9 +2054,21 @@ events:
       - "C:/Program Files (x86)/cleanr-engine/sbin/"
       - "C:/Program Files (x86)/cleanr-engine/"
     searched_directories:
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/windres.com"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/windres.exe"
+      - "C:/Users/niran/OneDrive/Desktop/neural/.venv/Scripts/windres"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/windres.com"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/windres.exe"
       - "C:/Users/niran/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/windres"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/windres.com"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/windres.exe"
+      - "C:/Users/niran/AppData/Local/Programs/Microsoft VS Code/windres"
+      - "C:/Python314/Scripts/windres.com"
+      - "C:/Python314/Scripts/windres.exe"
+      - "C:/Python314/Scripts/windres"
+      - "C:/Python314/windres.com"
+      - "C:/Python314/windres.exe"
+      - "C:/Python314/windres"
       - "C:/ARM GNU/bin/windres.com"
       - "C:/ARM GNU/bin/windres.exe"
       - "C:/ARM GNU/bin/windres"
@@ -1335,7 +2091,26 @@ events:
     found: "C:/MinGW/bin/windres.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
         - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\ARM GNU\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\niran\\OneDrive\\Desktop\\neural\\.venv\\Scripts"
+        - "c:\\Users\\niran\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\ARM GNU\\bin"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1348,6 +2123,10 @@ events:
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\niran\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\niran\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs"
+        - "c:\\Users\\niran\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/cleanr-engine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1363,8 +2142,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/CMakeScratch/TryCompile-1syt9t"
-      binary: "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/CMakeScratch/TryCompile-1syt9t"
+      source: "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/CMakeScratch/TryCompile-x3oapj"
+      binary: "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/CMakeScratch/TryCompile-x3oapj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1374,21 +2153,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/CMakeScratch/TryCompile-1syt9t'
+        Change Dir: 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/CMakeScratch/TryCompile-x3oapj'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_9b2e1/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b2e1.dir\\build.make CMakeFiles/cmTC_9b2e1.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/CMakeScratch/TryCompile-1syt9t'
-        Building CXX object CMakeFiles/cmTC_9b2e1.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c3746/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c3746.dir\\build.make CMakeFiles/cmTC_c3746.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/CMakeScratch/TryCompile-x3oapj'
+        Building CXX object CMakeFiles/cmTC_c3746.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
         Target: mingw32
         Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
         Thread model: win32
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\niran\\AppData\\Local\\Temp\\ccWd1qVh.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\niran\\AppData\\Local\\Temp\\ccsEeXfZ.s
         GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
@@ -1417,14 +2196,14 @@ events:
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: af09a87986453bf79da3565f33c7648f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\niran\\AppData\\Local\\Temp\\ccWd1qVh.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\niran\\AppData\\Local\\Temp\\ccsEeXfZ.s
         GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-        Linking CXX executable cmTC_9b2e1.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9b2e1.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        Linking CXX executable cmTC_c3746.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c3746.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -1434,16 +2213,16 @@ events:
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9b2e1.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\ccifliS0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_9b2e1.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9b2e1.dir/objects.a --no-whole-archive --out-implib libcmTC_9b2e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3746.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\cchifIQI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_c3746.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3746.dir/objects.a --no-whole-archive --out-implib libcmTC_c3746.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
         collect2 version 6.3.0
-        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\ccifliS0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_9b2e1.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9b2e1.dir/objects.a --no-whole-archive --out-implib libcmTC_9b2e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\cchifIQI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_c3746.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3746.dir/objects.a --no-whole-archive --out-implib libcmTC_c3746.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
         GNU ld (GNU Binutils) 2.28
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9b2e1.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_9b2e1.dir/objects.a
-        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_9b2e1.dir/objects.a @CMakeFiles\\cmTC_9b2e1.dir\\objects1.rsp
-        C:\\MinGW\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_9b2e1.dir/objects.a -Wl,--no-whole-archive -o cmTC_9b2e1.exe -Wl,--out-implib,libcmTC_9b2e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/CMakeScratch/TryCompile-1syt9t'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3746.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c3746.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_c3746.dir/objects.a @CMakeFiles\\cmTC_c3746.dir\\objects1.rsp
+        C:\\MinGW\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_c3746.dir/objects.a -Wl,--no-whole-archive -o cmTC_c3746.exe -Wl,--out-implib,libcmTC_c3746.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/CMakeScratch/TryCompile-x3oapj'
         
       exitCode: 0
   -
@@ -1484,21 +2263,21 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/CMakeScratch/TryCompile-1syt9t']
+        ignore line: [Change Dir: 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/CMakeScratch/TryCompile-x3oapj']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_9b2e1/fast]
-        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b2e1.dir\\build.make CMakeFiles/cmTC_9b2e1.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine/build/CMakeFiles/CMakeScratch/TryCompile-1syt9t']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9b2e1.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c3746/fast]
+        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c3746.dir\\build.make CMakeFiles/cmTC_c3746.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/build/CMakeFiles/CMakeScratch/TryCompile-x3oapj']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c3746.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\niran\\AppData\\Local\\Temp\\ccWd1qVh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\niran\\AppData\\Local\\Temp\\ccsEeXfZ.s]
         ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
@@ -1527,8 +2306,8 @@ events:
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\niran\\AppData\\Local\\Temp\\ccWd1qVh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\niran\\AppData\\Local\\Temp\\ccsEeXfZ.s]
         ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
         ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
         ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -1537,9 +2316,9 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9b2e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [Linking CXX executable cmTC_9b2e1.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9b2e1.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3746.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [Linking CXX executable cmTC_c3746.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c3746.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -1554,13 +2333,13 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9b2e1.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\ccifliS0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_9b2e1.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9b2e1.dir/objects.a --no-whole-archive --out-implib libcmTC_9b2e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3746.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\cchifIQI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_c3746.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3746.dir/objects.a --no-whole-archive --out-implib libcmTC_c3746.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\ccifliS0.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\cchifIQI.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1583,7 +2362,7 @@ events:
           arg [-u] ==> ignore
           arg [___deregister_frame_info] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9b2e1.exe] ==> ignore
+          arg [cmTC_c3746.exe] ==> ignore
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -1592,10 +2371,10 @@ events:
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_9b2e1.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_c3746.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_9b2e1.dll.a] ==> ignore
+          arg [libcmTC_c3746.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1619,7 +2398,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
         ignore line: [collect2 version 6.3.0]
-        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\ccifliS0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_9b2e1.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9b2e1.dir/objects.a --no-whole-archive --out-implib libcmTC_9b2e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\niran\\AppData\\Local\\Temp\\cchifIQI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_c3746.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3746.dir/objects.a --no-whole-archive --out-implib libcmTC_c3746.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
         linker tool for 'CXX': c:/mingw/mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]

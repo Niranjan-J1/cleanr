@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++1z
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++1z -Wall -Wextra -O2
 
