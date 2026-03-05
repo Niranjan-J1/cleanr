@@ -152,6 +152,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/nn/autoencoder.obj: src/nn/autoencoder.cpp.obj
+.PHONY : src/nn/autoencoder.obj
+
+# target to build an object file
+src/nn/autoencoder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj
+.PHONY : src/nn/autoencoder.cpp.obj
+
+src/nn/autoencoder.i: src/nn/autoencoder.cpp.i
+.PHONY : src/nn/autoencoder.i
+
+# target to preprocess a source file
+src/nn/autoencoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.i
+.PHONY : src/nn/autoencoder.cpp.i
+
+src/nn/autoencoder.s: src/nn/autoencoder.cpp.s
+.PHONY : src/nn/autoencoder.s
+
+# target to generate assembly for a file
+src/nn/autoencoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.s
+.PHONY : src/nn/autoencoder.cpp.s
+
 src/nn/layer.obj: src/nn/layer.cpp.obj
 .PHONY : src/nn/layer.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/nn/autoencoder.obj
+	@echo ... src/nn/autoencoder.i
+	@echo ... src/nn/autoencoder.s
 	@echo ... src/nn/layer.obj
 	@echo ... src/nn/layer.i
 	@echo ... src/nn/layer.s

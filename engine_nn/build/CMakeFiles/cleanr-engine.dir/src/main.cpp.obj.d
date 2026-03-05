@@ -100,16 +100,17 @@ CMakeFiles/cleanr-engine.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
- C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn/network.h \
- C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn/layer.h \
- C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn/matrix.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
+ C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn/autoencoder.h \
+ C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn/network.h \
+ C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn/layer.h \
+ C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn/matrix.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\random \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\limits \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\random.h \

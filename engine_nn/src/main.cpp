@@ -1,70 +1,76 @@
 #include <iostream>
+#include <vector>
 #include <cmath>
-#include "nn/network.h"
+#include "nn/autoencoder.h"
 
 int main() {
-    // Build a small network: 2 inputs → 3 hidden → 1 output
-    // Task: learn the function output = input1 * 0.5 + input2 * 0.3
-    // This simulates learning a pattern from data
+    // Simulate a dataset with 3 numeric columns:
+    // age (normalized 0-1), salary (normalized 0-1), years_exp (normalized 0-1)
+    //
+    // Normal rows cluster around age=0.3-0.5, salary=0.4-0.7, exp=0.2-0.5
+    // Anomalous rows have extreme values like age=0.99 (age=99) or salary=0.0 (negative)
 
-    Network net(0.01);  // learning rate = 0.01
-    net.add_layer(2, 4, "relu");     // input → hidden
-    net.add_layer(4, 1, "linear");   // hidden → output
+    Autoencoder ae(3, 2, 0.001, 0.05);
 
-    // Training data — 4 simple examples
-    // Each pair: {input, expected output}
-    std::vector<std::pair<Matrix, Matrix>> training_data;
+    // Normal training data — these are all "reasonable" rows
+    std::vector<Matrix> normal_rows;
 
-    auto make_input = [](double a, double b) {
-        Matrix m(2, 1);
-        m.at(0,0) = a;
-        m.at(1,0) = b;
+    auto make_row = [](double age, double salary, double exp) {
+        Matrix m(3, 1);
+        m.at(0,0) = age;
+        m.at(1,0) = salary;
+        m.at(2,0) = exp;
         return m;
     };
 
-    auto make_target = [](double val) {
-        Matrix m(1, 1);
-        m.at(0,0) = val;
-        return m;
+    // 20 normal rows — the autoencoder learns this distribution
+    normal_rows.push_back(make_row(0.34, 0.52, 0.30));
+    normal_rows.push_back(make_row(0.41, 0.61, 0.40));
+    normal_rows.push_back(make_row(0.28, 0.45, 0.22));
+    normal_rows.push_back(make_row(0.45, 0.70, 0.48));
+    normal_rows.push_back(make_row(0.33, 0.50, 0.28));
+    normal_rows.push_back(make_row(0.39, 0.58, 0.35));
+    normal_rows.push_back(make_row(0.47, 0.65, 0.44));
+    normal_rows.push_back(make_row(0.30, 0.47, 0.25));
+    normal_rows.push_back(make_row(0.43, 0.63, 0.41));
+    normal_rows.push_back(make_row(0.36, 0.54, 0.32));
+    normal_rows.push_back(make_row(0.38, 0.57, 0.34));
+    normal_rows.push_back(make_row(0.42, 0.62, 0.39));
+    normal_rows.push_back(make_row(0.29, 0.46, 0.23));
+    normal_rows.push_back(make_row(0.44, 0.64, 0.43));
+    normal_rows.push_back(make_row(0.31, 0.48, 0.26));
+    normal_rows.push_back(make_row(0.40, 0.59, 0.37));
+    normal_rows.push_back(make_row(0.35, 0.53, 0.31));
+    normal_rows.push_back(make_row(0.46, 0.67, 0.46));
+    normal_rows.push_back(make_row(0.32, 0.49, 0.27));
+    normal_rows.push_back(make_row(0.37, 0.56, 0.33));
+
+    // Train autoencoder on normal data only
+    std::cout << "Training autoencoder on normal rows...\n\n";
+    ae.fit(normal_rows, 200);
+
+    // Now test — normal rows should have low error
+    // Anomalous rows should have high error
+    std::cout << "\n--- Anomaly Detection Results ---\n\n";
+
+    auto test_row = [&](const Matrix& row, std::string label) {
+        double score = ae.anomaly_score(row);
+        bool flagged = ae.is_anomaly(row);
+        std::cout << label << "\n";
+        std::cout << "  Anomaly score: " << score
+                  << (flagged ? "  *** ANOMALY DETECTED ***" : "  (normal)")
+                  << "\n\n";
     };
 
-    // Target function: output = a*0.5 + b*0.3
-    training_data.push_back({make_input(1.0, 0.0), make_target(0.5)});
-    training_data.push_back({make_input(0.0, 1.0), make_target(0.3)});
-    training_data.push_back({make_input(1.0, 1.0), make_target(0.8)});
-    training_data.push_back({make_input(0.5, 0.5), make_target(0.4)});
+    // Normal rows — should NOT be flagged
+    test_row(make_row(0.38, 0.57, 0.34), "Normal row: age=38, salary=57k, exp=8yrs");
+    test_row(make_row(0.42, 0.63, 0.41), "Normal row: age=42, salary=63k, exp=10yrs");
 
-    // Train for 2000 epochs
-    // An epoch = one pass through all training data
-    std::cout << "Training...\n";
-    for (int epoch = 0; epoch < 2000; epoch++) {
-        double total_loss = 0.0;
-        for (int i = 0; i < (int)training_data.size(); i++) {
-            total_loss += net.train_sample(training_data[i].first, training_data[i].second);
-        }
-        if (epoch % 200 == 0) {
-            std::cout << "Epoch " << epoch
-                      << " — Loss: " << total_loss / training_data.size()
-                      << "\n";
-        }
-    }
-
-    // Test predictions after training
-    std::cout << "\nPredictions after training:\n";
-    auto test = [&](double a, double b, double expected) {
-        Matrix input = make_input(a, b);
-        Matrix output = net.forward(input);
-        std::cout << "Input [" << a << ", " << b << "] "
-                  << "→ Predicted: " << output.at(0,0)
-                  << " | Expected: " << expected
-                  << " | Error: " << std::abs(output.at(0,0) - expected)
-                  << "\n";
-    };
-
-    test(1.0, 0.0, 0.5);
-    test(0.0, 1.0, 0.3);
-    test(1.0, 1.0, 0.8);
-    test(0.5, 0.5, 0.4);
+    // Anomalous rows — should be flagged
+    test_row(make_row(0.99, 0.57, 0.34), "Anomaly: age=99 (impossible)");
+    test_row(make_row(0.38, 0.00, 0.34), "Anomaly: salary=0 (negative in real data)");
+    test_row(make_row(0.02, 0.90, 0.80), "Anomaly: age=2, salary=90k (child executive)");
+    test_row(make_row(0.50, 0.50, 0.99), "Anomaly: 99 years experience");
 
     return 0;
 }

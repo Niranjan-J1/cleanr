@@ -11,6 +11,7 @@ add_executable(cleanr-engine
     src/nn/matrix.cpp
     src/nn/layer.cpp
     src/nn/network.cpp
+    src/nn/autoencoder.cpp
 )
 
 target_include_directories(cleanr-engine PRIVATE src)
