@@ -26,6 +26,7 @@ def analyze_csv(filepath: str, filename: str, job_id: Optional[str] = None) -> C
         job_id = str(uuid.uuid4())
 
     df = pd.read_csv(filepath, dtype=str)
+    df.columns = [col.strip() for col in df.columns] # clean headers before detetction
 
     report = CleaningReport(
         job_id        = job_id,

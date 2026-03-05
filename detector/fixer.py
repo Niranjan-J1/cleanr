@@ -17,7 +17,12 @@ class Fixer:
         # e.g. { "age:MISSING_VALUES": "fill_median", "salary:MIXED_TYPES": "drop_rows" }
         self.user_selections  = user_selections or {}
 
+    def _fix_headers(self):
+        # Strip whitespace from column names and normalize
+        self.df.columns = [col.strip() for col in self.df.columns]
+
     def apply_all(self) -> pd.DataFrame:
+        self._fix_headers()
         for issue in self.report.issues:
 
             if issue.fix_tier == FixTier.AUTO:
