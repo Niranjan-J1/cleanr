@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/layer.cpp" "CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj" "gcc" "CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj.d"
   "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/matrix.cpp" "CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj" "gcc" "CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj.d"
   "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/network.cpp" "CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj" "gcc" "CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj.d"
+  "C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/regressor.cpp" "CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj" "gcc" "CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

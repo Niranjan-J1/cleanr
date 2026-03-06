@@ -248,6 +248,30 @@ src/nn/network.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.s
 .PHONY : src/nn/network.cpp.s
 
+src/nn/regressor.obj: src/nn/regressor.cpp.obj
+.PHONY : src/nn/regressor.obj
+
+# target to build an object file
+src/nn/regressor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj
+.PHONY : src/nn/regressor.cpp.obj
+
+src/nn/regressor.i: src/nn/regressor.cpp.i
+.PHONY : src/nn/regressor.i
+
+# target to preprocess a source file
+src/nn/regressor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.i
+.PHONY : src/nn/regressor.cpp.i
+
+src/nn/regressor.s: src/nn/regressor.cpp.s
+.PHONY : src/nn/regressor.s
+
+# target to generate assembly for a file
+src/nn/regressor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.s
+.PHONY : src/nn/regressor.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,6 +296,9 @@ help:
 	@echo ... src/nn/network.obj
 	@echo ... src/nn/network.i
 	@echo ... src/nn/network.s
+	@echo ... src/nn/regressor.obj
+	@echo ... src/nn/regressor.i
+	@echo ... src/nn/regressor.s
 .PHONY : help
 
 

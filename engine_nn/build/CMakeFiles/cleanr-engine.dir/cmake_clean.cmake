@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj.d"
   "CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj"
   "CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj.d"
+  "CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj"
+  "CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj.d"
   "cleanr-engine.exe"
   "cleanr-engine.exe.manifest"
   "cleanr-engine.pdb"

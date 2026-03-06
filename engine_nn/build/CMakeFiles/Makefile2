@@ -84,12 +84,12 @@ clean: CMakeFiles/cleanr-engine.dir/clean
 CMakeFiles/cleanr-engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target cleanr-engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target cleanr-engine"
 .PHONY : CMakeFiles/cleanr-engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cleanr-engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cleanr-engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles 0
 .PHONY : CMakeFiles/cleanr-engine.dir/rule
@@ -101,7 +101,7 @@ cleanr-engine: CMakeFiles/cleanr-engine.dir/rule
 # codegen rule for target.
 CMakeFiles/cleanr-engine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target cleanr-engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target cleanr-engine"
 .PHONY : CMakeFiles/cleanr-engine.dir/codegen
 
 # clean rule for target.
