@@ -1,0 +1,7 @@
+{
+  "task": "anomalies",
+  "numeric_columns": ["id", "Age", "salary"],
+  "anomalies": [
+    {"row": 8, "score": 0.293323}
+  ]
+}

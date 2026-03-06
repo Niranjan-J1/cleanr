@@ -128,6 +128,30 @@ cleanr-engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/build
 .PHONY : cleanr-engine/fast
 
+src/csv_parser.obj: src/csv_parser.cpp.obj
+.PHONY : src/csv_parser.obj
+
+# target to build an object file
+src/csv_parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj
+.PHONY : src/csv_parser.cpp.obj
+
+src/csv_parser.i: src/csv_parser.cpp.i
+.PHONY : src/csv_parser.i
+
+# target to preprocess a source file
+src/csv_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.i
+.PHONY : src/csv_parser.cpp.i
+
+src/csv_parser.s: src/csv_parser.cpp.s
+.PHONY : src/csv_parser.s
+
+# target to generate assembly for a file
+src/csv_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.s
+.PHONY : src/csv_parser.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -305,6 +329,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cleanr-engine
+	@echo ... src/csv_parser.obj
+	@echo ... src/csv_parser.i
+	@echo ... src/csv_parser.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -8,12 +8,14 @@ add_compile_options(-Wall -Wextra -O2)
 
 add_executable(cleanr-engine
     src/main.cpp
+    src/csv_parser.cpp
     src/nn/matrix.cpp
     src/nn/layer.cpp
     src/nn/network.cpp
     src/nn/autoencoder.cpp
     src/nn/regressor.cpp
     src/nn/fuzzy_dedup.cpp
+    
 )
 
 target_include_directories(cleanr-engine PRIVATE src)

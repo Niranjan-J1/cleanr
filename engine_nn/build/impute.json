@@ -1,0 +1,30 @@
+{
+  "task": "impute",
+  "imputations": [
+    {
+      "row": 23,
+      "column": "id",
+      "predicted_value": 12.146849
+    },
+    {
+      "row": 3,
+      "column": "Age",
+      "predicted_value": 132.822821
+    },
+    {
+      "row": 18,
+      "column": "Age",
+      "predicted_value": 54.406985
+    },
+    {
+      "row": 2,
+      "column": "salary",
+      "predicted_value": 75729.738804
+    },
+    {
+      "row": 5,
+      "column": "salary",
+      "predicted_value": 72885.958614
+    }
+  ]
+}

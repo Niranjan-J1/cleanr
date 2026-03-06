@@ -1,0 +1,13 @@
+{
+  "task": "fuzzy_dedup",
+  "duplicate_pairs": [
+    {
+      "column": "Name",
+      "row_a": 12,
+      "row_b": 14,
+      "value_a": "Liam Jackson",
+      "value_b": "liam.jackson@email.com",
+      "similarity": 0.518182
+    }
+  ]
+}

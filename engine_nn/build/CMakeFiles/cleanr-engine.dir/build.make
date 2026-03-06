@@ -86,11 +86,26 @@ CMakeFiles/cleanr-engine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cleanr-engine.dir/src/main.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\main.cpp -o CMakeFiles\cleanr-engine.dir\src\main.cpp.s
 
+CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj: CMakeFiles/cleanr-engine.dir/flags.make
+CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj: CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
+CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj: C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/csv_parser.cpp
+CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj: CMakeFiles/cleanr-engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj -MF CMakeFiles\cleanr-engine.dir\src\csv_parser.cpp.obj.d -o CMakeFiles\cleanr-engine.dir\src\csv_parser.cpp.obj -c C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\csv_parser.cpp
+
+CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\csv_parser.cpp > CMakeFiles\cleanr-engine.dir\src\csv_parser.cpp.i
+
+CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\csv_parser.cpp -o CMakeFiles\cleanr-engine.dir\src\csv_parser.cpp.s
+
 CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj: CMakeFiles/cleanr-engine.dir/flags.make
 CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj: CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
 CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj: C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/matrix.cpp
 CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj: CMakeFiles/cleanr-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj -MF CMakeFiles\cleanr-engine.dir\src\nn\matrix.cpp.obj.d -o CMakeFiles\cleanr-engine.dir\src\nn\matrix.cpp.obj -c C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn\matrix.cpp
 
 CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.i: cmake_force
@@ -105,7 +120,7 @@ CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj: CMakeFiles/cleanr-engine.dir/
 CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj: CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
 CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj: C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/layer.cpp
 CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj: CMakeFiles/cleanr-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj -MF CMakeFiles\cleanr-engine.dir\src\nn\layer.cpp.obj.d -o CMakeFiles\cleanr-engine.dir\src\nn\layer.cpp.obj -c C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn\layer.cpp
 
 CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.i: cmake_force
@@ -120,7 +135,7 @@ CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj: CMakeFiles/cleanr-engine.di
 CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj: CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
 CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj: C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/network.cpp
 CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj: CMakeFiles/cleanr-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj -MF CMakeFiles\cleanr-engine.dir\src\nn\network.cpp.obj.d -o CMakeFiles\cleanr-engine.dir\src\nn\network.cpp.obj -c C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn\network.cpp
 
 CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.i: cmake_force
@@ -135,7 +150,7 @@ CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj: CMakeFiles/cleanr-engin
 CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj: CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
 CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj: C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/autoencoder.cpp
 CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj: CMakeFiles/cleanr-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.obj -MF CMakeFiles\cleanr-engine.dir\src\nn\autoencoder.cpp.obj.d -o CMakeFiles\cleanr-engine.dir\src\nn\autoencoder.cpp.obj -c C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn\autoencoder.cpp
 
 CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.i: cmake_force
@@ -150,7 +165,7 @@ CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj: CMakeFiles/cleanr-engine.
 CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj: CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
 CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj: C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/regressor.cpp
 CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj: CMakeFiles/cleanr-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.obj -MF CMakeFiles\cleanr-engine.dir\src\nn\regressor.cpp.obj.d -o CMakeFiles\cleanr-engine.dir\src\nn\regressor.cpp.obj -c C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn\regressor.cpp
 
 CMakeFiles/cleanr-engine.dir/src/nn/regressor.cpp.i: cmake_force
@@ -165,7 +180,7 @@ CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj: CMakeFiles/cleanr-engin
 CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj: CMakeFiles/cleanr-engine.dir/includes_CXX.rsp
 CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj: C:/Users/niran/OneDrive/Desktop/neural/cleanr/engine_nn/src/nn/fuzzy_dedup.cpp
 CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj: CMakeFiles/cleanr-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj -MF CMakeFiles\cleanr-engine.dir\src\nn\fuzzy_dedup.cpp.obj.d -o CMakeFiles\cleanr-engine.dir\src\nn\fuzzy_dedup.cpp.obj -c C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\src\nn\fuzzy_dedup.cpp
 
 CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.i: cmake_force
@@ -179,6 +194,7 @@ CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.s: cmake_force
 # Object files for target cleanr-engine
 cleanr__engine_OBJECTS = \
 "CMakeFiles/cleanr-engine.dir/src/main.cpp.obj" \
+"CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj" \
 "CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj" \
 "CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj" \
 "CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj" \
@@ -190,6 +206,7 @@ cleanr__engine_OBJECTS = \
 cleanr__engine_EXTERNAL_OBJECTS =
 
 cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/src/main.cpp.obj
+cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/src/csv_parser.cpp.obj
 cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/src/nn/matrix.cpp.obj
 cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/src/nn/layer.cpp.obj
 cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/src/nn/network.cpp.obj
@@ -200,7 +217,7 @@ cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/build.make
 cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/linkLibs.rsp
 cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/objects1.rsp
 cleanr-engine.exe: CMakeFiles/cleanr-engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cleanr-engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\niran\OneDrive\Desktop\neural\cleanr\engine_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cleanr-engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cleanr-engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

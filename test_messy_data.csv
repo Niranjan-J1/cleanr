@@ -1,0 +1,26 @@
+id,  Name ,email,Age,  Phone  ,salary,join_date,Department,status
+1,John Smith,john.smith@email.com,34,555-123-4567,75000,2021-03-15,Engineering,active
+2,  Jane Doe  ,JANE.DOE@EMAIL.COM,29,  (555) 987-6543  ,82000.00,15/04/2020,  Marketing  ,Active
+3,Bob Johnson,bob.johnson@email,45,5551234567,NULL,2019-07-01,Engineering,ACTIVE
+4,Alice Brown,alice.brown@email.com,,555.234.5678,91000,01-08-2018,HR,active
+5,Charlie Wilson,charlie@wilson@email.com,38,+1-555-345-6789,67500,2022/11/30,Sales,inactive
+6,Emily Davis,emily.davis@email.com,27,555-456-7890,N/A,2023-01-10,Marketing,Active
+7,  ,frank.miller@email.com,52,555-567-8901,105000,2017-05-22,Engineering,active
+8,Grace Lee,grace.lee@email.com,31,555-678-9012,78000,2020-09-14,HR,
+9,Henry Taylor,henry.taylor@email.com,999,555-789-0123,88000,2021-06-30,Sales,active
+10,Isabella Martinez,isabella.martinez@email.com,41,555-890-1234,-5000,2019-12-01,Marketing,active
+11,James Anderson,,36,555-901-2345,72000,2022-04-17,Engineering,active
+12,Karen Thomas,karen.thomas@email.com,44,555-012-3456,95000,2018-08-09,HR,INACTIVE
+13,Liam Jackson,liam.jackson@email.com,28,555-111-2222,61000,2023-07-25,Sales,active
+14,Mia White,mia.white@email.com,33,555-222-3333,84000,2020-02-28,Marketing,Active
+15,liam.jackson@email.com,noah.harris@email.com,39,555-333-4444,77000,2021-10-05,Engineering,active
+16,Olivia Martin,olivia.martin@email.com,26,555-444-5555,58000,2023-03-12,Sales,active
+17,Olivia Martin,olivia.martin@email.com,26,555-444-5555,58000,2023-03-12,Sales,active
+18,Peter Garcia,peter.garcia@email.com,47,555-555-6666,112000,2016-11-18,HR,active
+19,Quinn Rodriguez,quinn.rodriguez@email.com,thirty,555-666-7777,69000,2022-08-14,Marketing,active
+20,Rachel Lewis,rachel.lewis@email.com,35,,83000,2020-06-21,Engineering,active
+21,Samuel Robinson,samuel.robinson@email.com,42,555-777-8888,97000,9999-99-99,Sales,active
+22,Tara Clark,tara.clark@email.com,30,555-888-9999,71000,2021-12-03,HR,active
+23,Umar Wright,umar.wright@email.com,38,555-999-0000,86000,2019-04-16,Engineering,active
+,Victoria Hill,victoria.hill@email.com,29,555-000-1111,63000,2023-05-07,Sales,active
+25,William Scott,william.scott@email.com,55,555-123-9876,120000,2015-09-30,Engineering,  active  
