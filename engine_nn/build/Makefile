@@ -176,6 +176,30 @@ src/nn/autoencoder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/autoencoder.cpp.s
 .PHONY : src/nn/autoencoder.cpp.s
 
+src/nn/fuzzy_dedup.obj: src/nn/fuzzy_dedup.cpp.obj
+.PHONY : src/nn/fuzzy_dedup.obj
+
+# target to build an object file
+src/nn/fuzzy_dedup.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.obj
+.PHONY : src/nn/fuzzy_dedup.cpp.obj
+
+src/nn/fuzzy_dedup.i: src/nn/fuzzy_dedup.cpp.i
+.PHONY : src/nn/fuzzy_dedup.i
+
+# target to preprocess a source file
+src/nn/fuzzy_dedup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.i
+.PHONY : src/nn/fuzzy_dedup.cpp.i
+
+src/nn/fuzzy_dedup.s: src/nn/fuzzy_dedup.cpp.s
+.PHONY : src/nn/fuzzy_dedup.s
+
+# target to generate assembly for a file
+src/nn/fuzzy_dedup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cleanr-engine.dir\build.make CMakeFiles/cleanr-engine.dir/src/nn/fuzzy_dedup.cpp.s
+.PHONY : src/nn/fuzzy_dedup.cpp.s
+
 src/nn/layer.obj: src/nn/layer.cpp.obj
 .PHONY : src/nn/layer.obj
 
@@ -287,6 +311,9 @@ help:
 	@echo ... src/nn/autoencoder.obj
 	@echo ... src/nn/autoencoder.i
 	@echo ... src/nn/autoencoder.s
+	@echo ... src/nn/fuzzy_dedup.obj
+	@echo ... src/nn/fuzzy_dedup.i
+	@echo ... src/nn/fuzzy_dedup.s
 	@echo ... src/nn/layer.obj
 	@echo ... src/nn/layer.i
 	@echo ... src/nn/layer.s
