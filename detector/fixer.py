@@ -1,6 +1,6 @@
 import pandas as pd
 from dateutil import parser as dateparser
-from detector.models import CleaningReport, IssueType, FixTier
+from detector.models import CleaningReport, IssueType, FixTier, FixOption
 
 DISGUISED_NULLS = {
     "n/a", "na", "none", "null", "nil", "nan",
@@ -55,6 +55,23 @@ class Fixer:
 
         elif issue.issue_type == IssueType.MIXED_TYPES:
             self._fix_mixed_types(col, action)
+        elif issue.issue_type == IssueType.ANOMALY:
+            self._fix_anomaly(action, issue)
+
+    def _fix_anomaly(self, action: str, issue):
+        if action == "drop_rows":
+            # Parse row indices from examples
+            # Examples format: "Row 8 (score=0.293)"
+            rows_to_drop = []
+            for example in issue.examples:
+                try:
+                    row_num = int(example.split("Row ")[1].split(" ")[0])
+                    rows_to_drop.append(row_num)
+                except:
+                    pass
+            if rows_to_drop:
+                self.df = self.df.drop(index=rows_to_drop, errors='ignore')
+                self.df = self.df.reset_index(drop=True)
 
     # --- AUTO fixes ---
 
