@@ -17,7 +17,19 @@ export default function Report({ report, onFix }) {
     setSelections(prev => ({ ...prev, [key]: action }))
   }
 
-  const answeredCount  = suggestIssues.filter(i => {
+  // Pre-select first fix option for every SUGGEST issue
+  function applyRecommended() {
+    const recommended = {}
+    suggestIssues.forEach(issue => {
+      if (issue.fix_options?.length > 0) {
+        const key = `${issue.column}:${issue.issue_type}`
+        recommended[key] = issue.fix_options[0].action
+      }
+    })
+    setSelections(recommended)
+  }
+
+  const answeredCount = suggestIssues.filter(i => {
     const key = `${i.column}:${i.issue_type}`
     return key in selections
   }).length
@@ -52,6 +64,48 @@ export default function Report({ report, onFix }) {
           <Stat label="Need input" value={suggestIssues.length} color="var(--amber)" />
         </div>
       </div>
+
+      {/* Apply all recommended banner */}
+      {suggestIssues.length > 0 && (
+        <div style={{
+          background: "var(--surface)",
+          border: "1px solid var(--border)",
+          borderRadius: "var(--radius)",
+          padding: "14px 20px",
+          marginBottom: 24,
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          gap: 16,
+          flexWrap: "wrap",
+        }}>
+          <div>
+            <p style={{ fontSize: 13, fontWeight: 500, color: "var(--text)", marginBottom: 2 }}>
+              ✦ Let the AI decide
+            </p>
+            <p style={{ fontSize: 12, color: "var(--text-3)" }}>
+              Pre-selects the recommended fix for each issue. You can still change any individual decision.
+            </p>
+          </div>
+          <button
+            onClick={applyRecommended}
+            style={{
+              fontSize: 12,
+              fontWeight: 600,
+              padding: "8px 18px",
+              borderRadius: "var(--radius)",
+              background: "var(--green-dim)",
+              color: "var(--green)",
+              border: "1px solid var(--green-border)",
+              cursor: "pointer",
+              whiteSpace: "nowrap",
+              transition: "all 0.15s",
+            }}
+          >
+            Apply all recommended
+          </button>
+        </div>
+      )}
 
       {/* Auto issues */}
       {autoIssues.length > 0 && (
@@ -180,11 +234,7 @@ function IssueCard({ issue, auto, selection, onSelect }) {
           }}>
             {issue.severity}
           </span>
-          <span style={{
-            fontSize: 13,
-            fontWeight: 600,
-            color: "var(--text)",
-          }}>
+          <span style={{ fontSize: 13, fontWeight: 600, color: "var(--text)" }}>
             {issue.column || "All rows"}
           </span>
           <span style={{
@@ -258,6 +308,8 @@ function IssueCard({ issue, auto, selection, onSelect }) {
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
           {issue.fix_options.map((opt, i) => {
             const selected = selection === opt.action
+            // First option is the recommended one
+            const isRecommended = i === 0
             return (
               <button
                 key={i}
@@ -271,9 +323,23 @@ function IssueCard({ issue, auto, selection, onSelect }) {
                   color: selected ? "var(--green)" : "var(--text-2)",
                   transition: "all 0.15s",
                   fontWeight: selected ? 500 : 400,
+                  position: "relative",
                 }}
               >
                 {opt.label}
+                {isRecommended && (
+                  <span style={{
+                    marginLeft: 6,
+                    fontSize: 9,
+                    fontFamily: "var(--mono)",
+                    color: selected ? "var(--green)" : "var(--text-3)",
+                    opacity: 0.7,
+                    textTransform: "uppercase",
+                    letterSpacing: 0.5,
+                  }}>
+                    ✦ rec
+                  </span>
+                )}
                 {opt.preview && opt.preview !== "blank" && opt.preview !== "no change" && (
                   <span style={{
                     marginLeft: 6,

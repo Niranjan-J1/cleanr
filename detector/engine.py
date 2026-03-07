@@ -8,6 +8,7 @@ from detector.detectors.duplicate_rows import DuplicateRowsDetector
 from detector.detectors.date_format import DateFormatDetector
 from detector.detectors.mixed_types import MixedTypesDetector
 from detector.detectors.whitespace import WhitespaceDetector
+from detector.detectors.negative_values import NegativeValuesDetector
 from detector import nn_engine
 
 DETECTORS = [
@@ -16,6 +17,7 @@ DETECTORS = [
     DateFormatDetector,
     MixedTypesDetector,
     WhitespaceDetector,
+    NegativeValuesDetector,
 ]
 
 def analyze_csv(filepath: str, filename: str, job_id: str) -> CleaningReport:

@@ -27,7 +27,7 @@ public:
 
     Autoencoder(int input_size, int bottleneck_size,
                 double learning_rate = 0.001,
-                double threshold = 0.1);
+                double threshold = 0.08);
 
     // Train on one row (unsupervised — target = input)
     double train(const Matrix& row);

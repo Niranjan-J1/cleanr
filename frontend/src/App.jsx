@@ -241,4 +241,21 @@ function Footer() {
       </span>
     </footer>
   )
+
 }
+
+
+function applyRecommended() {
+    const recommended = {}
+    report.issues.forEach(issue => {
+        if (issue.fix_tier === 'SUGGEST' && issue.fix_options?.length > 0) {
+            const key = `${issue.column}:${issue.issue_type}`
+            recommended[key] = issue.fix_options[0].action
+        }
+    })
+    setSelections(recommended)
+}
+
+<button onClick={applyRecommended}>
+    ✦ Apply all recommended
+</button>
