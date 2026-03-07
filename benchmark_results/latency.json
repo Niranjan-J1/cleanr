@@ -1,0 +1,65 @@
+[
+  {
+    "rows": 103,
+    "t_read_ms": 2.11,
+    "t_detect_ms": 39.3,
+    "t_fix_ms": 15.2,
+    "t_write_ms": 1.98,
+    "t_total_ms": 58.59,
+    "rows_per_sec": 1757
+  },
+  {
+    "rows": 515,
+    "t_read_ms": 2.81,
+    "t_detect_ms": 51.32,
+    "t_fix_ms": 34.6,
+    "t_write_ms": 2.69,
+    "t_total_ms": 91.42,
+    "rows_per_sec": 5633
+  },
+  {
+    "rows": 1030,
+    "t_read_ms": 4.72,
+    "t_detect_ms": 60.72,
+    "t_fix_ms": 57.47,
+    "t_write_ms": 4.65,
+    "t_total_ms": 127.57,
+    "rows_per_sec": 8074
+  },
+  {
+    "rows": 5150,
+    "t_read_ms": 16.19,
+    "t_detect_ms": 174.53,
+    "t_fix_ms": 241.79,
+    "t_write_ms": 16.42,
+    "t_total_ms": 448.94,
+    "rows_per_sec": 11471
+  },
+  {
+    "rows": 10300,
+    "t_read_ms": 21.42,
+    "t_detect_ms": 315.67,
+    "t_fix_ms": 452.42,
+    "t_write_ms": 28.27,
+    "t_total_ms": 817.78,
+    "rows_per_sec": 12595
+  },
+  {
+    "rows": 51500,
+    "t_read_ms": 104.1,
+    "t_detect_ms": 1391.14,
+    "t_fix_ms": 2208.78,
+    "t_write_ms": 161.05,
+    "t_total_ms": 3865.08,
+    "rows_per_sec": 13324
+  },
+  {
+    "rows": 103000,
+    "t_read_ms": 193.46,
+    "t_detect_ms": 2795.34,
+    "t_fix_ms": 4484.27,
+    "t_write_ms": 296.09,
+    "t_total_ms": 7769.16,
+    "rows_per_sec": 13257
+  }
+]

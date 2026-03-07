@@ -1,0 +1,3452 @@
+{
+  "984": [
+    "missing_value"
+  ],
+  "1482": [
+    "missing_value"
+  ],
+  "4413": [
+    "bad_date"
+  ],
+  "1040": [
+    "bad_date"
+  ],
+  "990": [
+    "bad_date"
+  ],
+  "4759": [
+    "anomaly"
+  ],
+  "1741": [
+    "bad_date"
+  ],
+  "4124": [
+    "missing_value"
+  ],
+  "3402": [
+    "negative_value"
+  ],
+  "4400": [
+    "anomaly"
+  ],
+  "1351": [
+    "anomaly"
+  ],
+  "3938": [
+    "mixed_type"
+  ],
+  "4551": [
+    "anomaly"
+  ],
+  "2142": [
+    "whitespace"
+  ],
+  "3607": [
+    "missing_value"
+  ],
+  "1094": [
+    "anomaly"
+  ],
+  "3495": [
+    "anomaly"
+  ],
+  "2141": [
+    "missing_value"
+  ],
+  "1765": [
+    "missing_value"
+  ],
+  "4904": [
+    "whitespace"
+  ],
+  "1687": [
+    "missing_value"
+  ],
+  "1618": [
+    "bad_date"
+  ],
+  "90": [
+    "anomaly"
+  ],
+  "2452": [
+    "case_inconsistency"
+  ],
+  "2950": [
+    "negative_value"
+  ],
+  "4802": [
+    "bad_date"
+  ],
+  "3529": [
+    "negative_value"
+  ],
+  "4668": [
+    "mixed_type"
+  ],
+  "1360": [
+    "missing_value"
+  ],
+  "300": [
+    "anomaly"
+  ],
+  "3295": [
+    "missing_value"
+  ],
+  "3284": [
+    "bad_date"
+  ],
+  "3252": [
+    "missing_value"
+  ],
+  "265": [
+    "anomaly"
+  ],
+  "2237": [
+    "case_inconsistency"
+  ],
+  "4448": [
+    "anomaly"
+  ],
+  "2886": [
+    "negative_value"
+  ],
+  "1897": [
+    "missing_value"
+  ],
+  "774": [
+    "whitespace"
+  ],
+  "1488": [
+    "bad_date"
+  ],
+  "1657": [
+    "anomaly"
+  ],
+  "2067": [
+    "mixed_type"
+  ],
+  "2167": [
+    "missing_value"
+  ],
+  "1684": [
+    "anomaly"
+  ],
+  "2785": [
+    "mixed_type"
+  ],
+  "4268": [
+    "negative_value"
+  ],
+  "2270": [
+    "bad_date"
+  ],
+  "4737": [
+    "whitespace"
+  ],
+  "4607": [
+    "missing_value"
+  ],
+  "750": [
+    "anomaly"
+  ],
+  "921": [
+    "missing_value"
+  ],
+  "4266": [
+    "anomaly"
+  ],
+  "2533": [
+    "anomaly"
+  ],
+  "3547": [
+    "negative_value"
+  ],
+  "2879": [
+    "anomaly"
+  ],
+  "803": [
+    "anomaly"
+  ],
+  "1261": [
+    "mixed_type"
+  ],
+  "1485": [
+    "bad_date"
+  ],
+  "969": [
+    "missing_value"
+  ],
+  "238": [
+    "anomaly"
+  ],
+  "3185": [
+    "mixed_type"
+  ],
+  "1925": [
+    "mixed_type"
+  ],
+  "3831": [
+    "bad_date"
+  ],
+  "4565": [
+    "mixed_type"
+  ],
+  "723": [
+    "negative_value"
+  ],
+  "3881": [
+    "whitespace"
+  ],
+  "155": [
+    "bad_date"
+  ],
+  "2514": [
+    "bad_date"
+  ],
+  "4580": [
+    "mixed_type"
+  ],
+  "1847": [
+    "anomaly"
+  ],
+  "3082": [
+    "anomaly"
+  ],
+  "4333": [
+    "whitespace"
+  ],
+  "776": [
+    "missing_value"
+  ],
+  "681": [
+    "whitespace"
+  ],
+  "3365": [
+    "bad_date"
+  ],
+  "2769": [
+    "missing_value"
+  ],
+  "4746": [
+    "bad_date"
+  ],
+  "2864": [
+    "case_inconsistency"
+  ],
+  "2960": [
+    "whitespace"
+  ],
+  "4525": [
+    "missing_value"
+  ],
+  "3049": [
+    "missing_value"
+  ],
+  "4691": [
+    "whitespace"
+  ],
+  "2113": [
+    "missing_value"
+  ],
+  "1367": [
+    "missing_value"
+  ],
+  "600": [
+    "missing_value"
+  ],
+  "2021": [
+    "anomaly"
+  ],
+  "4093": [
+    "anomaly"
+  ],
+  "4700": [
+    "anomaly"
+  ],
+  "1616": [
+    "anomaly"
+  ],
+  "855": [
+    "anomaly"
+  ],
+  "1708": [
+    "bad_date"
+  ],
+  "3359": [
+    "case_inconsistency"
+  ],
+  "1584": [
+    "negative_value"
+  ],
+  "3226": [
+    "bad_date"
+  ],
+  "2756": [
+    "mixed_type"
+  ],
+  "4720": [
+    "whitespace"
+  ],
+  "4067": [
+    "missing_value"
+  ],
+  "1452": [
+    "negative_value"
+  ],
+  "4004": [
+    "anomaly"
+  ],
+  "3274": [
+    "missing_value"
+  ],
+  "3778": [
+    "anomaly"
+  ],
+  "3503": [
+    "anomaly"
+  ],
+  "4257": [
+    "anomaly"
+  ],
+  "4033": [
+    "negative_value"
+  ],
+  "3901": [
+    "mixed_type"
+  ],
+  "3998": [
+    "bad_date"
+  ],
+  "2999": [
+    "missing_value"
+  ],
+  "4652": [
+    "missing_value"
+  ],
+  "1717": [
+    "missing_value"
+  ],
+  "2956": [
+    "bad_date"
+  ],
+  "4579": [
+    "case_inconsistency"
+  ],
+  "3482": [
+    "case_inconsistency"
+  ],
+  "589": [
+    "missing_value"
+  ],
+  "1709": [
+    "missing_value"
+  ],
+  "2528": [
+    "anomaly"
+  ],
+  "731": [
+    "negative_value"
+  ],
+  "3977": [
+    "mixed_type"
+  ],
+  "2104": [
+    "anomaly"
+  ],
+  "4879": [
+    "mixed_type"
+  ],
+  "597": [
+    "anomaly"
+  ],
+  "4790": [
+    "bad_date"
+  ],
+  "2834": [
+    "bad_date"
+  ],
+  "1802": [
+    "anomaly"
+  ],
+  "4549": [
+    "missing_value"
+  ],
+  "192": [
+    "case_inconsistency"
+  ],
+  "4486": [
+    "negative_value"
+  ],
+  "4459": [
+    "missing_value"
+  ],
+  "2439": [
+    "anomaly"
+  ],
+  "1467": [
+    "whitespace"
+  ],
+  "3541": [
+    "missing_value"
+  ],
+  "4025": [
+    "missing_value"
+  ],
+  "1067": [
+    "negative_value"
+  ],
+  "1572": [
+    "whitespace"
+  ],
+  "1642": [
+    "missing_value"
+  ],
+  "4979": [
+    "anomaly"
+  ],
+  "4971": [
+    "anomaly"
+  ],
+  "106": [
+    "anomaly"
+  ],
+  "4014": [
+    "whitespace"
+  ],
+  "3326": [
+    "missing_value"
+  ],
+  "941": [
+    "bad_date"
+  ],
+  "2976": [
+    "case_inconsistency"
+  ],
+  "225": [
+    "missing_value"
+  ],
+  "271": [
+    "whitespace"
+  ],
+  "769": [
+    "bad_date"
+  ],
+  "614": [
+    "bad_date"
+  ],
+  "671": [
+    "whitespace"
+  ],
+  "1834": [
+    "anomaly"
+  ],
+  "4995": [
+    "anomaly"
+  ],
+  "870": [
+    "missing_value"
+  ],
+  "2738": [
+    "bad_date"
+  ],
+  "2522": [
+    "mixed_type"
+  ],
+  "4306": [
+    "anomaly"
+  ],
+  "1": [
+    "missing_value"
+  ],
+  "2521": [
+    "anomaly"
+  ],
+  "2318": [
+    "negative_value"
+  ],
+  "1502": [
+    "whitespace"
+  ],
+  "1628": [
+    "missing_value"
+  ],
+  "3380": [
+    "negative_value"
+  ],
+  "2057": [
+    "missing_value"
+  ],
+  "4091": [
+    "bad_date"
+  ],
+  "1280": [
+    "bad_date"
+  ],
+  "611": [
+    "bad_date"
+  ],
+  "4792": [
+    "bad_date"
+  ],
+  "4945": [
+    "missing_value"
+  ],
+  "104": [
+    "mixed_type"
+  ],
+  "712": [
+    "missing_value"
+  ],
+  "20": [
+    "mixed_type"
+  ],
+  "4297": [
+    "missing_value"
+  ],
+  "3225": [
+    "case_inconsistency"
+  ],
+  "796": [
+    "bad_date"
+  ],
+  "3149": [
+    "anomaly"
+  ],
+  "2048": [
+    "whitespace"
+  ],
+  "3770": [
+    "missing_value"
+  ],
+  "4961": [
+    "mixed_type"
+  ],
+  "151": [
+    "anomaly"
+  ],
+  "2554": [
+    "missing_value"
+  ],
+  "4938": [
+    "mixed_type"
+  ],
+  "4675": [
+    "missing_value"
+  ],
+  "733": [
+    "anomaly"
+  ],
+  "2806": [
+    "missing_value"
+  ],
+  "3942": [
+    "negative_value"
+  ],
+  "1836": [
+    "missing_value"
+  ],
+  "4344": [
+    "whitespace"
+  ],
+  "219": [
+    "missing_value"
+  ],
+  "3124": [
+    "anomaly"
+  ],
+  "3720": [
+    "whitespace"
+  ],
+  "4688": [
+    "mixed_type"
+  ],
+  "3120": [
+    "case_inconsistency"
+  ],
+  "3782": [
+    "missing_value"
+  ],
+  "1893": [
+    "case_inconsistency"
+  ],
+  "3171": [
+    "whitespace"
+  ],
+  "3703": [
+    "whitespace"
+  ],
+  "1486": [
+    "whitespace"
+  ],
+  "299": [
+    "whitespace"
+  ],
+  "4784": [
+    "missing_value"
+  ],
+  "3230": [
+    "negative_value"
+  ],
+  "968": [
+    "whitespace"
+  ],
+  "369": [
+    "anomaly"
+  ],
+  "1484": [
+    "case_inconsistency"
+  ],
+  "1586": [
+    "anomaly"
+  ],
+  "3752": [
+    "missing_value"
+  ],
+  "2503": [
+    "mixed_type"
+  ],
+  "1832": [
+    "negative_value"
+  ],
+  "1420": [
+    "mixed_type"
+  ],
+  "468": [
+    "whitespace"
+  ],
+  "2980": [
+    "whitespace"
+  ],
+  "4169": [
+    "anomaly"
+  ],
+  "3169": [
+    "bad_date"
+  ],
+  "4649": [
+    "mixed_type"
+  ],
+  "4635": [
+    "anomaly"
+  ],
+  "3594": [
+    "missing_value"
+  ],
+  "1296": [
+    "missing_value"
+  ],
+  "2186": [
+    "mixed_type"
+  ],
+  "2974": [
+    "whitespace"
+  ],
+  "3841": [
+    "negative_value"
+  ],
+  "848": [
+    "case_inconsistency"
+  ],
+  "2982": [
+    "anomaly"
+  ],
+  "2964": [
+    "missing_value"
+  ],
+  "3636": [
+    "whitespace"
+  ],
+  "1601": [
+    "bad_date"
+  ],
+  "1285": [
+    "mixed_type"
+  ],
+  "4005": [
+    "negative_value"
+  ],
+  "3824": [
+    "case_inconsistency"
+  ],
+  "58": [
+    "mixed_type"
+  ],
+  "971": [
+    "anomaly"
+  ],
+  "947": [
+    "case_inconsistency"
+  ],
+  "2749": [
+    "missing_value"
+  ],
+  "2525": [
+    "missing_value"
+  ],
+  "785": [
+    "negative_value"
+  ],
+  "3821": [
+    "case_inconsistency"
+  ],
+  "4088": [
+    "whitespace"
+  ],
+  "1498": [
+    "negative_value"
+  ],
+  "3389": [
+    "whitespace"
+  ],
+  "37": [
+    "whitespace"
+  ],
+  "3473": [
+    "anomaly"
+  ],
+  "4161": [
+    "bad_date"
+  ],
+  "2787": [
+    "anomaly"
+  ],
+  "3328": [
+    "anomaly"
+  ],
+  "4164": [
+    "mixed_type"
+  ],
+  "4520": [
+    "missing_value"
+  ],
+  "4391": [
+    "anomaly"
+  ],
+  "4508": [
+    "missing_value"
+  ],
+  "3441": [
+    "missing_value"
+  ],
+  "514": [
+    "negative_value"
+  ],
+  "286": [
+    "mixed_type"
+  ],
+  "4290": [
+    "anomaly"
+  ],
+  "2810": [
+    "whitespace"
+  ],
+  "4955": [
+    "missing_value"
+  ],
+  "3885": [
+    "mixed_type"
+  ],
+  "2840": [
+    "anomaly"
+  ],
+  "4103": [
+    "anomaly"
+  ],
+  "3100": [
+    "missing_value"
+  ],
+  "3922": [
+    "missing_value"
+  ],
+  "4842": [
+    "whitespace"
+  ],
+  "2403": [
+    "case_inconsistency"
+  ],
+  "1593": [
+    "anomaly"
+  ],
+  "3364": [
+    "bad_date"
+  ],
+  "2243": [
+    "case_inconsistency"
+  ],
+  "2224": [
+    "anomaly"
+  ],
+  "4064": [
+    "bad_date"
+  ],
+  "418": [
+    "anomaly"
+  ],
+  "1378": [
+    "bad_date"
+  ],
+  "3134": [
+    "mixed_type"
+  ],
+  "1644": [
+    "missing_value"
+  ],
+  "1231": [
+    "negative_value"
+  ],
+  "3240": [
+    "case_inconsistency"
+  ],
+  "4036": [
+    "whitespace"
+  ],
+  "3475": [
+    "negative_value"
+  ],
+  "2872": [
+    "whitespace"
+  ],
+  "4870": [
+    "case_inconsistency"
+  ],
+  "2161": [
+    "missing_value"
+  ],
+  "2742": [
+    "case_inconsistency"
+  ],
+  "4245": [
+    "anomaly"
+  ],
+  "3640": [
+    "anomaly"
+  ],
+  "3172": [
+    "bad_date"
+  ],
+  "3154": [
+    "whitespace"
+  ],
+  "2124": [
+    "anomaly"
+  ],
+  "4778": [
+    "anomaly"
+  ],
+  "2171": [
+    "anomaly"
+  ],
+  "3625": [
+    "missing_value"
+  ],
+  "641": [
+    "case_inconsistency"
+  ],
+  "2857": [
+    "mixed_type"
+  ],
+  "2896": [
+    "missing_value"
+  ],
+  "1954": [
+    "negative_value"
+  ],
+  "2253": [
+    "whitespace"
+  ],
+  "3631": [
+    "bad_date"
+  ],
+  "2070": [
+    "bad_date"
+  ],
+  "2619": [
+    "whitespace"
+  ],
+  "295": [
+    "whitespace"
+  ],
+  "1062": [
+    "whitespace"
+  ],
+  "2074": [
+    "missing_value"
+  ],
+  "2986": [
+    "anomaly"
+  ],
+  "1977": [
+    "anomaly"
+  ],
+  "3626": [
+    "anomaly"
+  ],
+  "4056": [
+    "bad_date"
+  ],
+  "1389": [
+    "bad_date"
+  ],
+  "4919": [
+    "case_inconsistency"
+  ],
+  "45": [
+    "missing_value"
+  ],
+  "2235": [
+    "whitespace"
+  ],
+  "4294": [
+    "bad_date"
+  ],
+  "3263": [
+    "anomaly"
+  ],
+  "2579": [
+    "anomaly"
+  ],
+  "1859": [
+    "negative_value"
+  ],
+  "2119": [
+    "case_inconsistency"
+  ],
+  "2726": [
+    "missing_value"
+  ],
+  "221": [
+    "mixed_type"
+  ],
+  "1941": [
+    "whitespace"
+  ],
+  "3612": [
+    "bad_date"
+  ],
+  "2862": [
+    "anomaly"
+  ],
+  "2290": [
+    "anomaly"
+  ],
+  "4538": [
+    "missing_value"
+  ],
+  "266": [
+    "mixed_type"
+  ],
+  "3948": [
+    "missing_value"
+  ],
+  "4300": [
+    "bad_date"
+  ],
+  "59": [
+    "mixed_type"
+  ],
+  "3068": [
+    "anomaly"
+  ],
+  "1880": [
+    "negative_value"
+  ],
+  "4358": [
+    "negative_value"
+  ],
+  "1768": [
+    "missing_value"
+  ],
+  "1627": [
+    "missing_value"
+  ],
+  "4371": [
+    "anomaly"
+  ],
+  "3046": [
+    "whitespace"
+  ],
+  "3300": [
+    "negative_value"
+  ],
+  "4754": [
+    "anomaly"
+  ],
+  "1544": [
+    "negative_value"
+  ],
+  "1528": [
+    "anomaly"
+  ],
+  "4973": [
+    "missing_value"
+  ],
+  "2028": [
+    "case_inconsistency"
+  ],
+  "3334": [
+    "missing_value"
+  ],
+  "4922": [
+    "mixed_type"
+  ],
+  "3111": [
+    "anomaly"
+  ],
+  "2481": [
+    "anomaly"
+  ],
+  "4299": [
+    "whitespace"
+  ],
+  "351": [
+    "bad_date"
+  ],
+  "2266": [
+    "case_inconsistency"
+  ],
+  "239": [
+    "negative_value"
+  ],
+  "3888": [
+    "case_inconsistency"
+  ],
+  "1813": [
+    "missing_value"
+  ],
+  "3756": [
+    "bad_date"
+  ],
+  "1712": [
+    "missing_value"
+  ],
+  "453": [
+    "negative_value"
+  ],
+  "2251": [
+    "whitespace"
+  ],
+  "715": [
+    "bad_date"
+  ],
+  "2881": [
+    "missing_value"
+  ],
+  "10": [
+    "mixed_type"
+  ],
+  "3164": [
+    "anomaly"
+  ],
+  "1789": [
+    "anomaly"
+  ],
+  "1447": [
+    "bad_date"
+  ],
+  "2109": [
+    "negative_value"
+  ],
+  "240": [
+    "mixed_type"
+  ],
+  "2574": [
+    "missing_value"
+  ],
+  "846": [
+    "missing_value"
+  ],
+  "375": [
+    "negative_value"
+  ],
+  "1156": [
+    "mixed_type"
+  ],
+  "3339": [
+    "anomaly"
+  ],
+  "2957": [
+    "negative_value"
+  ],
+  "4231": [
+    "missing_value"
+  ],
+  "1887": [
+    "missing_value"
+  ],
+  "4366": [
+    "negative_value"
+  ],
+  "3702": [
+    "anomaly"
+  ],
+  "4763": [
+    "mixed_type"
+  ],
+  "3537": [
+    "missing_value"
+  ],
+  "1655": [
+    "negative_value"
+  ],
+  "2386": [
+    "whitespace"
+  ],
+  "3232": [
+    "missing_value"
+  ],
+  "3827": [
+    "mixed_type"
+  ],
+  "2303": [
+    "anomaly"
+  ],
+  "3498": [
+    "case_inconsistency"
+  ],
+  "2182": [
+    "missing_value"
+  ],
+  "3228": [
+    "bad_date"
+  ],
+  "305": [
+    "mixed_type"
+  ],
+  "1118": [
+    "bad_date"
+  ],
+  "3978": [
+    "missing_value"
+  ],
+  "1610": [
+    "anomaly"
+  ],
+  "4672": [
+    "anomaly"
+  ],
+  "3887": [
+    "negative_value"
+  ],
+  "2166": [
+    "missing_value"
+  ],
+  "913": [
+    "mixed_type"
+  ],
+  "4871": [
+    "mixed_type"
+  ],
+  "1201": [
+    "bad_date"
+  ],
+  "439": [
+    "negative_value"
+  ],
+  "4715": [
+    "missing_value"
+  ],
+  "2323": [
+    "negative_value"
+  ],
+  "571": [
+    "missing_value"
+  ],
+  "437": [
+    "anomaly"
+  ],
+  "727": [
+    "mixed_type"
+  ],
+  "173": [
+    "missing_value"
+  ],
+  "1466": [
+    "case_inconsistency"
+  ],
+  "4007": [
+    "bad_date"
+  ],
+  "3573": [
+    "bad_date"
+  ],
+  "367": [
+    "bad_date"
+  ],
+  "3956": [
+    "whitespace"
+  ],
+  "4368": [
+    "missing_value"
+  ],
+  "902": [
+    "whitespace"
+  ],
+  "4885": [
+    "case_inconsistency"
+  ],
+  "2686": [
+    "anomaly"
+  ],
+  "3209": [
+    "bad_date"
+  ],
+  "2449": [
+    "negative_value"
+  ],
+  "4241": [
+    "anomaly"
+  ],
+  "2149": [
+    "missing_value"
+  ],
+  "4848": [
+    "missing_value"
+  ],
+  "3780": [
+    "anomaly"
+  ],
+  "3897": [
+    "case_inconsistency"
+  ],
+  "4634": [
+    "missing_value"
+  ],
+  "3844": [
+    "negative_value"
+  ],
+  "1656": [
+    "missing_value"
+  ],
+  "4246": [
+    "anomaly"
+  ],
+  "1608": [
+    "bad_date"
+  ],
+  "1933": [
+    "anomaly"
+  ],
+  "177": [
+    "missing_value"
+  ],
+  "714": [
+    "mixed_type"
+  ],
+  "2159": [
+    "anomaly"
+  ],
+  "2061": [
+    "missing_value"
+  ],
+  "1760": [
+    "missing_value"
+  ],
+  "2633": [
+    "missing_value"
+  ],
+  "3663": [
+    "missing_value"
+  ],
+  "3040": [
+    "negative_value"
+  ],
+  "2208": [
+    "mixed_type"
+  ],
+  "3875": [
+    "mixed_type"
+  ],
+  "4326": [
+    "negative_value"
+  ],
+  "4833": [
+    "case_inconsistency"
+  ],
+  "1723": [
+    "missing_value"
+  ],
+  "2796": [
+    "anomaly"
+  ],
+  "187": [
+    "anomaly"
+  ],
+  "2817": [
+    "anomaly"
+  ],
+  "3357": [
+    "mixed_type"
+  ],
+  "259": [
+    "bad_date"
+  ],
+  "1521": [
+    "mixed_type"
+  ],
+  "3828": [
+    "negative_value"
+  ],
+  "237": [
+    "missing_value"
+  ],
+  "3305": [
+    "anomaly"
+  ],
+  "4324": [
+    "case_inconsistency"
+  ],
+  "3853": [
+    "missing_value"
+  ],
+  "2737": [
+    "missing_value"
+  ],
+  "3544": [
+    "case_inconsistency"
+  ],
+  "495": [
+    "bad_date"
+  ],
+  "3939": [
+    "anomaly"
+  ],
+  "697": [
+    "bad_date"
+  ],
+  "4438": [
+    "case_inconsistency"
+  ],
+  "980": [
+    "anomaly"
+  ],
+  "1310": [
+    "negative_value"
+  ],
+  "4912": [
+    "anomaly"
+  ],
+  "1493": [
+    "missing_value"
+  ],
+  "1959": [
+    "anomaly"
+  ],
+  "3269": [
+    "mixed_type"
+  ],
+  "777": [
+    "mixed_type"
+  ],
+  "4669": [
+    "missing_value"
+  ],
+  "899": [
+    "anomaly"
+  ],
+  "1043": [
+    "anomaly"
+  ],
+  "1536": [
+    "anomaly"
+  ],
+  "4030": [
+    "anomaly"
+  ],
+  "2077": [
+    "case_inconsistency"
+  ],
+  "2981": [
+    "mixed_type"
+  ],
+  "4900": [
+    "missing_value"
+  ],
+  "4818": [
+    "whitespace"
+  ],
+  "4267": [
+    "mixed_type"
+  ],
+  "2437": [
+    "negative_value"
+  ],
+  "839": [
+    "anomaly"
+  ],
+  "1696": [
+    "case_inconsistency"
+  ],
+  "2035": [
+    "whitespace"
+  ],
+  "4081": [
+    "mixed_type"
+  ],
+  "3368": [
+    "whitespace"
+  ],
+  "4100": [
+    "negative_value"
+  ],
+  "3652": [
+    "missing_value"
+  ],
+  "73": [
+    "whitespace"
+  ],
+  "2739": [
+    "anomaly"
+  ],
+  "4137": [
+    "missing_value"
+  ],
+  "95": [
+    "bad_date"
+  ],
+  "4008": [
+    "negative_value"
+  ],
+  "4741": [
+    "missing_value"
+  ],
+  "541": [
+    "anomaly"
+  ],
+  "3313": [
+    "missing_value"
+  ],
+  "975": [
+    "missing_value"
+  ],
+  "245": [
+    "whitespace"
+  ],
+  "3500": [
+    "anomaly"
+  ],
+  "2189": [
+    "whitespace"
+  ],
+  "334": [
+    "anomaly"
+  ],
+  "4062": [
+    "negative_value"
+  ],
+  "293": [
+    "anomaly"
+  ],
+  "3727": [
+    "bad_date"
+  ],
+  "4323": [
+    "missing_value"
+  ],
+  "1679": [
+    "anomaly"
+  ],
+  "4406": [
+    "anomaly"
+  ],
+  "2468": [
+    "mixed_type"
+  ],
+  "3615": [
+    "case_inconsistency"
+  ],
+  "4349": [
+    "bad_date"
+  ],
+  "2202": [
+    "anomaly"
+  ],
+  "4196": [
+    "missing_value"
+  ],
+  "1607": [
+    "case_inconsistency"
+  ],
+  "87": [
+    "anomaly"
+  ],
+  "1867": [
+    "anomaly"
+  ],
+  "2083": [
+    "anomaly"
+  ],
+  "4239": [
+    "case_inconsistency"
+  ],
+  "2877": [
+    "mixed_type"
+  ],
+  "3788": [
+    "whitespace"
+  ],
+  "1745": [
+    "missing_value"
+  ],
+  "3545": [
+    "anomaly"
+  ],
+  "2691": [
+    "bad_date"
+  ],
+  "2332": [
+    "anomaly"
+  ],
+  "2384": [
+    "case_inconsistency"
+  ],
+  "2148": [
+    "bad_date"
+  ],
+  "1059": [
+    "missing_value"
+  ],
+  "3925": [
+    "anomaly"
+  ],
+  "1513": [
+    "anomaly"
+  ],
+  "4211": [
+    "anomaly"
+  ],
+  "473": [
+    "whitespace"
+  ],
+  "81": [
+    "missing_value"
+  ],
+  "1549": [
+    "missing_value"
+  ],
+  "964": [
+    "missing_value"
+  ],
+  "3700": [
+    "whitespace"
+  ],
+  "4539": [
+    "bad_date"
+  ],
+  "4145": [
+    "case_inconsistency"
+  ],
+  "2005": [
+    "case_inconsistency"
+  ],
+  "3194": [
+    "negative_value"
+  ],
+  "2099": [
+    "negative_value"
+  ],
+  "2012": [
+    "mixed_type"
+  ],
+  "677": [
+    "bad_date"
+  ],
+  "3506": [
+    "mixed_type"
+  ],
+  "4034": [
+    "mixed_type"
+  ],
+  "4253": [
+    "missing_value"
+  ],
+  "2667": [
+    "missing_value"
+  ],
+  "4117": [
+    "bad_date"
+  ],
+  "2187": [
+    "negative_value"
+  ],
+  "2138": [
+    "case_inconsistency"
+  ],
+  "2188": [
+    "negative_value"
+  ],
+  "341": [
+    "bad_date"
+  ],
+  "4512": [
+    "anomaly"
+  ],
+  "4603": [
+    "bad_date"
+  ],
+  "4690": [
+    "bad_date"
+  ],
+  "2584": [
+    "anomaly"
+  ],
+  "4813": [
+    "missing_value"
+  ],
+  "1766": [
+    "missing_value"
+  ],
+  "196": [
+    "missing_value"
+  ],
+  "1637": [
+    "anomaly"
+  ],
+  "1525": [
+    "bad_date"
+  ],
+  "275": [
+    "missing_value"
+  ],
+  "3777": [
+    "mixed_type"
+  ],
+  "3045": [
+    "negative_value"
+  ],
+  "3569": [
+    "bad_date"
+  ],
+  "41": [
+    "anomaly"
+  ],
+  "2803": [
+    "anomaly"
+  ],
+  "1265": [
+    "bad_date"
+  ],
+  "3467": [
+    "bad_date"
+  ],
+  "443": [
+    "negative_value"
+  ],
+  "1017": [
+    "missing_value"
+  ],
+  "2962": [
+    "whitespace"
+  ],
+  "1302": [
+    "anomaly"
+  ],
+  "1693": [
+    "anomaly"
+  ],
+  "309": [
+    "anomaly"
+  ],
+  "4972": [
+    "whitespace"
+  ],
+  "4899": [
+    "case_inconsistency"
+  ],
+  "3294": [
+    "whitespace"
+  ],
+  "3121": [
+    "missing_value"
+  ],
+  "1604": [
+    "anomaly"
+  ],
+  "1793": [
+    "case_inconsistency"
+  ],
+  "174": [
+    "missing_value"
+  ],
+  "4918": [
+    "missing_value"
+  ],
+  "1352": [
+    "case_inconsistency"
+  ],
+  "2014": [
+    "anomaly"
+  ],
+  "2934": [
+    "negative_value"
+  ],
+  "3273": [
+    "whitespace"
+  ],
+  "2888": [
+    "bad_date"
+  ],
+  "2168": [
+    "missing_value"
+  ],
+  "26": [
+    "whitespace"
+  ],
+  "3605": [
+    "bad_date"
+  ],
+  "4892": [
+    "anomaly"
+  ],
+  "4859": [
+    "anomaly"
+  ],
+  "961": [
+    "missing_value"
+  ],
+  "2893": [
+    "anomaly"
+  ],
+  "2254": [
+    "missing_value"
+  ],
+  "492": [
+    "case_inconsistency"
+  ],
+  "1474": [
+    "mixed_type"
+  ],
+  "3792": [
+    "anomaly"
+  ],
+  "1707": [
+    "mixed_type"
+  ],
+  "1338": [
+    "negative_value"
+  ],
+  "210": [
+    "missing_value"
+  ],
+  "962": [
+    "anomaly"
+  ],
+  "1195": [
+    "missing_value"
+  ],
+  "4991": [
+    "anomaly"
+  ],
+  "2926": [
+    "mixed_type"
+  ],
+  "1761": [
+    "case_inconsistency"
+  ],
+  "765": [
+    "bad_date"
+  ],
+  "4574": [
+    "missing_value"
+  ],
+  "2673": [
+    "anomaly"
+  ],
+  "35": [
+    "case_inconsistency"
+  ],
+  "180": [
+    "anomaly"
+  ],
+  "2393": [
+    "missing_value"
+  ],
+  "1048": [
+    "missing_value"
+  ],
+  "642": [
+    "whitespace"
+  ],
+  "4355": [
+    "missing_value"
+  ],
+  "1147": [
+    "case_inconsistency"
+  ],
+  "319": [
+    "negative_value"
+  ],
+  "4236": [
+    "mixed_type"
+  ],
+  "1034": [
+    "mixed_type"
+  ],
+  "454": [
+    "case_inconsistency"
+  ],
+  "2465": [
+    "whitespace"
+  ],
+  "4328": [
+    "anomaly"
+  ],
+  "1019": [
+    "missing_value"
+  ],
+  "4641": [
+    "whitespace"
+  ],
+  "1945": [
+    "missing_value"
+  ],
+  "458": [
+    "anomaly"
+  ],
+  "2839": [
+    "negative_value"
+  ],
+  "2435": [
+    "anomaly"
+  ],
+  "4347": [
+    "negative_value"
+  ],
+  "2358": [
+    "whitespace"
+  ],
+  "3672": [
+    "negative_value"
+  ],
+  "1781": [
+    "anomaly"
+  ],
+  "4228": [
+    "anomaly"
+  ],
+  "2940": [
+    "negative_value"
+  ],
+  "3632": [
+    "anomaly"
+  ],
+  "3976": [
+    "missing_value"
+  ],
+  "4915": [
+    "bad_date"
+  ],
+  "3662": [
+    "missing_value"
+  ],
+  "1675": [
+    "negative_value"
+  ],
+  "4807": [
+    "mixed_type"
+  ],
+  "4304": [
+    "missing_value"
+  ],
+  "2219": [
+    "missing_value"
+  ],
+  "2699": [
+    "anomaly"
+  ],
+  "2682": [
+    "bad_date"
+  ],
+  "1939": [
+    "whitespace"
+  ],
+  "4311": [
+    "negative_value"
+  ],
+  "859": [
+    "anomaly"
+  ],
+  "3069": [
+    "whitespace"
+  ],
+  "693": [
+    "anomaly"
+  ],
+  "4389": [
+    "anomaly"
+  ],
+  "1284": [
+    "bad_date"
+  ],
+  "3981": [
+    "whitespace"
+  ],
+  "1190": [
+    "anomaly"
+  ],
+  "1538": [
+    "whitespace"
+  ],
+  "4220": [
+    "mixed_type"
+  ],
+  "1131": [
+    "case_inconsistency"
+  ],
+  "3576": [
+    "case_inconsistency"
+  ],
+  "2248": [
+    "case_inconsistency"
+  ],
+  "1077": [
+    "whitespace"
+  ],
+  "2908": [
+    "case_inconsistency"
+  ],
+  "806": [
+    "whitespace"
+  ],
+  "4132": [
+    "whitespace"
+  ],
+  "2812": [
+    "mixed_type"
+  ],
+  "1512": [
+    "whitespace"
+  ],
+  "2968": [
+    "bad_date"
+  ],
+  "2991": [
+    "anomaly"
+  ],
+  "3825": [
+    "whitespace"
+  ],
+  "3430": [
+    "whitespace"
+  ],
+  "4308": [
+    "missing_value"
+  ],
+  "649": [
+    "case_inconsistency"
+  ],
+  "2772": [
+    "missing_value"
+  ],
+  "4847": [
+    "anomaly"
+  ],
+  "336": [
+    "whitespace"
+  ],
+  "1996": [
+    "anomaly"
+  ],
+  "4204": [
+    "negative_value"
+  ],
+  "1015": [
+    "case_inconsistency"
+  ],
+  "4711": [
+    "whitespace"
+  ],
+  "2689": [
+    "anomaly"
+  ],
+  "2484": [
+    "negative_value"
+  ],
+  "2144": [
+    "bad_date"
+  ],
+  "4110": [
+    "negative_value"
+  ],
+  "3714": [
+    "bad_date"
+  ],
+  "3175": [
+    "case_inconsistency"
+  ],
+  "2773": [
+    "mixed_type"
+  ],
+  "122": [
+    "whitespace"
+  ],
+  "2409": [
+    "anomaly"
+  ],
+  "4198": [
+    "missing_value"
+  ],
+  "4541": [
+    "missing_value"
+  ],
+  "2307": [
+    "mixed_type"
+  ],
+  "4793": [
+    "missing_value"
+  ],
+  "943": [
+    "missing_value"
+  ],
+  "2665": [
+    "bad_date"
+  ],
+  "249": [
+    "anomaly"
+  ],
+  "4181": [
+    "missing_value"
+  ],
+  "4686": [
+    "anomaly"
+  ],
+  "1115": [
+    "mixed_type"
+  ],
+  "2091": [
+    "missing_value"
+  ],
+  "2360": [
+    "negative_value"
+  ],
+  "3335": [
+    "negative_value"
+  ],
+  "2379": [
+    "anomaly"
+  ],
+  "1944": [
+    "anomaly"
+  ],
+  "2723": [
+    "missing_value"
+  ],
+  "3634": [
+    "bad_date"
+  ],
+  "3383": [
+    "missing_value"
+  ],
+  "2958": [
+    "anomaly"
+  ],
+  "4926": [
+    "bad_date"
+  ],
+  "3016": [
+    "whitespace"
+  ],
+  "2724": [
+    "missing_value"
+  ],
+  "4184": [
+    "missing_value"
+  ],
+  "637": [
+    "missing_value"
+  ],
+  "507": [
+    "whitespace"
+  ],
+  "4159": [
+    "case_inconsistency"
+  ],
+  "1098": [
+    "negative_value"
+  ],
+  "1249": [
+    "anomaly"
+  ],
+  "3658": [
+    "bad_date"
+  ],
+  "3593": [
+    "bad_date"
+  ],
+  "2701": [
+    "anomaly"
+  ],
+  "2457": [
+    "bad_date"
+  ],
+  "4068": [
+    "negative_value"
+  ],
+  "4039": [
+    "missing_value"
+  ],
+  "3048": [
+    "case_inconsistency"
+  ],
+  "4705": [
+    "mixed_type"
+  ],
+  "1473": [
+    "whitespace"
+  ],
+  "3030": [
+    "case_inconsistency"
+  ],
+  "2325": [
+    "case_inconsistency"
+  ],
+  "1033": [
+    "case_inconsistency"
+  ],
+  "1776": [
+    "anomaly"
+  ],
+  "4213": [
+    "missing_value"
+  ],
+  "3664": [
+    "whitespace"
+  ],
+  "1215": [
+    "anomaly"
+  ],
+  "2363": [
+    "negative_value"
+  ],
+  "2034": [
+    "missing_value"
+  ],
+  "3952": [
+    "whitespace"
+  ],
+  "4883": [
+    "missing_value"
+  ],
+  "3849": [
+    "negative_value"
+  ],
+  "315": [
+    "mixed_type"
+  ],
+  "139": [
+    "whitespace"
+  ],
+  "4042": [
+    "bad_date"
+  ],
+  "508": [
+    "case_inconsistency"
+  ],
+  "2334": [
+    "missing_value"
+  ],
+  "2711": [
+    "missing_value"
+  ],
+  "2983": [
+    "case_inconsistency"
+  ],
+  "4913": [
+    "mixed_type"
+  ],
+  "2328": [
+    "whitespace"
+  ],
+  "4484": [
+    "missing_value"
+  ],
+  "2543": [
+    "negative_value"
+  ],
+  "4662": [
+    "negative_value"
+  ],
+  "3408": [
+    "anomaly"
+  ],
+  "3783": [
+    "anomaly"
+  ],
+  "2172": [
+    "negative_value"
+  ],
+  "864": [
+    "whitespace"
+  ],
+  "3574": [
+    "missing_value"
+  ],
+  "3492": [
+    "case_inconsistency"
+  ],
+  "1086": [
+    "mixed_type"
+  ],
+  "1617": [
+    "missing_value"
+  ],
+  "4617": [
+    "missing_value"
+  ],
+  "2792": [
+    "whitespace"
+  ],
+  "3455": [
+    "missing_value"
+  ],
+  "4002": [
+    "anomaly"
+  ],
+  "2702": [
+    "bad_date"
+  ],
+  "4801": [
+    "missing_value"
+  ],
+  "1810": [
+    "negative_value"
+  ],
+  "2814": [
+    "anomaly"
+  ],
+  "244": [
+    "whitespace"
+  ],
+  "1382": [
+    "anomaly"
+  ],
+  "3689": [
+    "negative_value"
+  ],
+  "3530": [
+    "mixed_type"
+  ],
+  "3659": [
+    "case_inconsistency"
+  ],
+  "2158": [
+    "whitespace"
+  ],
+  "170": [
+    "negative_value"
+  ],
+  "3076": [
+    "missing_value"
+  ],
+  "2466": [
+    "missing_value"
+  ],
+  "1268": [
+    "anomaly"
+  ],
+  "1253": [
+    "missing_value"
+  ],
+  "4020": [
+    "case_inconsistency"
+  ],
+  "1208": [
+    "anomaly"
+  ],
+  "3954": [
+    "mixed_type"
+  ],
+  "3254": [
+    "negative_value"
+  ],
+  "2952": [
+    "whitespace"
+  ],
+  "3013": [
+    "missing_value"
+  ],
+  "927": [
+    "case_inconsistency"
+  ],
+  "1654": [
+    "missing_value"
+  ],
+  "2263": [
+    "missing_value"
+  ],
+  "845": [
+    "case_inconsistency"
+  ],
+  "4066": [
+    "mixed_type"
+  ],
+  "404": [
+    "anomaly"
+  ],
+  "457": [
+    "anomaly"
+  ],
+  "2776": [
+    "negative_value"
+  ],
+  "2317": [
+    "bad_date"
+  ],
+  "2755": [
+    "bad_date"
+  ],
+  "4552": [
+    "case_inconsistency"
+  ],
+  "1971": [
+    "missing_value"
+  ],
+  "2373": [
+    "bad_date"
+  ],
+  "2913": [
+    "whitespace"
+  ],
+  "2754": [
+    "missing_value"
+  ],
+  "2978": [
+    "anomaly"
+  ],
+  "3564": [
+    "anomaly"
+  ],
+  "1534": [
+    "negative_value"
+  ],
+  "1007": [
+    "anomaly"
+  ],
+  "4573": [
+    "anomaly"
+  ],
+  "1758": [
+    "mixed_type"
+  ],
+  "1667": [
+    "negative_value"
+  ],
+  "3055": [
+    "missing_value"
+  ],
+  "3962": [
+    "anomaly"
+  ],
+  "3396": [
+    "anomaly"
+  ],
+  "3397": [
+    "missing_value"
+  ],
+  "442": [
+    "anomaly"
+  ],
+  "4591": [
+    "missing_value"
+  ],
+  "2917": [
+    "missing_value"
+  ],
+  "63": [
+    "missing_value"
+  ],
+  "2470": [
+    "anomaly"
+  ],
+  "4755": [
+    "mixed_type"
+  ],
+  "4118": [
+    "whitespace"
+  ],
+  "3419": [
+    "missing_value"
+  ],
+  "416": [
+    "anomaly"
+  ],
+  "2406": [
+    "missing_value"
+  ],
+  "1645": [
+    "anomaly"
+  ],
+  "650": [
+    "missing_value"
+  ],
+  "3880": [
+    "negative_value"
+  ],
+  "3035": [
+    "anomaly"
+  ],
+  "2700": [
+    "whitespace"
+  ],
+  "3862": [
+    "anomaly"
+  ],
+  "2630": [
+    "bad_date"
+  ],
+  "1299": [
+    "case_inconsistency"
+  ],
+  "4743": [
+    "negative_value"
+  ],
+  "3742": [
+    "anomaly"
+  ],
+  "4776": [
+    "mixed_type"
+  ],
+  "1896": [
+    "missing_value"
+  ],
+  "1827": [
+    "bad_date"
+  ],
+  "3202": [
+    "negative_value"
+  ],
+  "4554": [
+    "anomaly"
+  ],
+  "3143": [
+    "missing_value"
+  ],
+  "378": [
+    "bad_date"
+  ],
+  "1987": [
+    "anomaly"
+  ],
+  "561": [
+    "bad_date"
+  ],
+  "3442": [
+    "mixed_type"
+  ],
+  "4288": [
+    "bad_date"
+  ],
+  "4716": [
+    "case_inconsistency"
+  ],
+  "4240": [
+    "missing_value"
+  ],
+  "4146": [
+    "negative_value"
+  ],
+  "4475": [
+    "missing_value"
+  ],
+  "2869": [
+    "anomaly"
+  ],
+  "200": [
+    "anomaly"
+  ],
+  "720": [
+    "case_inconsistency"
+  ],
+  "273": [
+    "bad_date"
+  ],
+  "3019": [
+    "bad_date"
+  ],
+  "1613": [
+    "anomaly"
+  ],
+  "760": [
+    "bad_date"
+  ],
+  "884": [
+    "case_inconsistency"
+  ],
+  "3026": [
+    "case_inconsistency"
+  ],
+  "1676": [
+    "missing_value"
+  ],
+  "1418": [
+    "missing_value"
+  ],
+  "358": [
+    "bad_date"
+  ],
+  "1325": [
+    "whitespace"
+  ],
+  "3325": [
+    "case_inconsistency"
+  ],
+  "2335": [
+    "missing_value"
+  ],
+  "397": [
+    "anomaly"
+  ],
+  "270": [
+    "negative_value"
+  ],
+  "1555": [
+    "negative_value"
+  ],
+  "1778": [
+    "anomaly"
+  ],
+  "4674": [
+    "anomaly"
+  ],
+  "3550": [
+    "whitespace"
+  ],
+  "1990": [
+    "whitespace"
+  ],
+  "4094": [
+    "whitespace"
+  ],
+  "4812": [
+    "whitespace"
+  ],
+  "348": [
+    "negative_value"
+  ],
+  "1515": [
+    "negative_value"
+  ],
+  "19": [
+    "negative_value"
+  ],
+  "1934": [
+    "mixed_type"
+  ],
+  "4451": [
+    "anomaly"
+  ],
+  "3666": [
+    "negative_value"
+  ],
+  "4249": [
+    "mixed_type"
+  ],
+  "4584": [
+    "missing_value"
+  ],
+  "4360": [
+    "mixed_type"
+  ],
+  "1730": [
+    "mixed_type"
+  ],
+  "4327": [
+    "mixed_type"
+  ],
+  "2434": [
+    "case_inconsistency"
+  ],
+  "2321": [
+    "mixed_type"
+  ],
+  "3684": [
+    "whitespace"
+  ],
+  "813": [
+    "bad_date"
+  ],
+  "3376": [
+    "anomaly"
+  ],
+  "3709": [
+    "whitespace"
+  ],
+  "3311": [
+    "anomaly"
+  ],
+  "2236": [
+    "bad_date"
+  ],
+  "1106": [
+    "mixed_type"
+  ],
+  "64": [
+    "missing_value"
+  ],
+  "4453": [
+    "missing_value"
+  ],
+  "1905": [
+    "missing_value"
+  ],
+  "759": [
+    "anomaly"
+  ],
+  "1520": [
+    "negative_value"
+  ],
+  "2408": [
+    "bad_date"
+  ],
+  "1526": [
+    "mixed_type"
+  ],
+  "3315": [
+    "missing_value"
+  ],
+  "3563": [
+    "anomaly"
+  ],
+  "2392": [
+    "negative_value"
+  ],
+  "2278": [
+    "whitespace"
+  ],
+  "1219": [
+    "missing_value"
+  ],
+  "2110": [
+    "anomaly"
+  ],
+  "3793": [
+    "anomaly"
+  ],
+  "4577": [
+    "missing_value"
+  ],
+  "1590": [
+    "negative_value"
+  ],
+  "1363": [
+    "anomaly"
+  ],
+  "4054": [
+    "mixed_type"
+  ],
+  "4909": [
+    "anomaly"
+  ],
+  "3556": [
+    "bad_date"
+  ],
+  "3329": [
+    "anomaly"
+  ],
+  "1962": [
+    "negative_value"
+  ],
+  "3623": [
+    "anomaly"
+  ],
+  "4865": [
+    "case_inconsistency"
+  ],
+  "2680": [
+    "case_inconsistency"
+  ],
+  "761": [
+    "negative_value"
+  ],
+  "4502": [
+    "negative_value"
+  ],
+  "3886": [
+    "anomaly"
+  ],
+  "2476": [
+    "case_inconsistency"
+  ],
+  "2233": [
+    "bad_date"
+  ],
+  "4992": [
+    "anomaly"
+  ],
+  "4640": [
+    "missing_value"
+  ],
+  "2548": [
+    "negative_value"
+  ],
+  "3179": [
+    "mixed_type"
+  ],
+  "4312": [
+    "bad_date"
+  ],
+  "2506": [
+    "bad_date"
+  ],
+  "2107": [
+    "whitespace"
+  ],
+  "3145": [
+    "case_inconsistency"
+  ],
+  "1779": [
+    "missing_value"
+  ],
+  "4661": [
+    "anomaly"
+  ],
+  "2743": [
+    "missing_value"
+  ],
+  "2042": [
+    "anomaly"
+  ],
+  "752": [
+    "missing_value"
+  ],
+  "2679": [
+    "anomaly"
+  ],
+  "2705": [
+    "negative_value"
+  ],
+  "3581": [
+    "missing_value"
+  ],
+  "3304": [
+    "anomaly"
+  ],
+  "2547": [
+    "anomaly"
+  ],
+  "1181": [
+    "anomaly"
+  ],
+  "1605": [
+    "mixed_type"
+  ],
+  "2286": [
+    "whitespace"
+  ],
+  "83": [
+    "mixed_type"
+  ],
+  "1250": [
+    "missing_value"
+  ],
+  "3103": [
+    "missing_value"
+  ],
+  "91": [
+    "mixed_type"
+  ],
+  "4550": [
+    "bad_date"
+  ],
+  "4631": [
+    "missing_value"
+  ],
+  "3072": [
+    "mixed_type"
+  ],
+  "2197": [
+    "case_inconsistency"
+  ],
+  "4826": [
+    "missing_value"
+  ],
+  "3183": [
+    "bad_date"
+  ],
+  "3198": [
+    "anomaly"
+  ],
+  "3426": [
+    "case_inconsistency"
+  ],
+  "4254": [
+    "anomaly"
+  ],
+  "523": [
+    "whitespace"
+  ],
+  "997": [
+    "negative_value"
+  ],
+  "4405": [
+    "bad_date"
+  ],
+  "1491": [
+    "anomaly"
+  ],
+  "1139": [
+    "whitespace"
+  ],
+  "4723": [
+    "mixed_type"
+  ],
+  "1117": [
+    "whitespace"
+  ],
+  "2181": [
+    "negative_value"
+  ],
+  "4589": [
+    "anomaly"
+  ],
+  "4019": [
+    "anomaly"
+  ],
+  "1125": [
+    "negative_value"
+  ],
+  "429": [
+    "anomaly"
+  ],
+  "1855": [
+    "whitespace"
+  ],
+  "1702": [
+    "anomaly"
+  ],
+  "4571": [
+    "anomaly"
+  ],
+  "2210": [
+    "case_inconsistency"
+  ],
+  "436": [
+    "anomaly"
+  ],
+  "3168": [
+    "mixed_type"
+  ],
+  "526": [
+    "missing_value"
+  ],
+  "1669": [
+    "missing_value"
+  ],
+  "4216": [
+    "anomaly"
+  ],
+  "3388": [
+    "missing_value"
+  ],
+  "4029": [
+    "whitespace"
+  ],
+  "2464": [
+    "anomaly"
+  ],
+  "2676": [
+    "negative_value"
+  ],
+  "4061": [
+    "anomaly"
+  ],
+  "4107": [
+    "negative_value"
+  ],
+  "2003": [
+    "case_inconsistency"
+  ],
+  "421": [
+    "mixed_type"
+  ],
+  "2174": [
+    "bad_date"
+  ],
+  "2685": [
+    "whitespace"
+  ],
+  "4785": [
+    "missing_value"
+  ],
+  "2666": [
+    "whitespace"
+  ],
+  "3681": [
+    "anomaly"
+  ],
+  "3271": [
+    "missing_value"
+  ],
+  "3771": [
+    "anomaly"
+  ],
+  "4115": [
+    "case_inconsistency"
+  ],
+  "3156": [
+    "case_inconsistency"
+  ],
+  "4600": [
+    "anomaly"
+  ],
+  "17": [
+    "case_inconsistency"
+  ],
+  "2763": [
+    "whitespace"
+  ],
+  "549": [
+    "anomaly"
+  ],
+  "1079": [
+    "bad_date"
+  ],
+  "3923": [
+    "whitespace"
+  ],
+  "3476": [
+    "anomaly"
+  ],
+  "2139": [
+    "whitespace"
+  ],
+  "2092": [
+    "whitespace"
+  ],
+  "4928": [
+    "anomaly"
+  ],
+  "2162": [
+    "anomaly"
+  ],
+  "1759": [
+    "anomaly"
+  ],
+  "3393": [
+    "missing_value"
+  ],
+  "1356": [
+    "case_inconsistency"
+  ],
+  "298": [
+    "bad_date"
+  ],
+  "3011": [
+    "anomaly"
+  ],
+  "3367": [
+    "bad_date"
+  ],
+  "879": [
+    "case_inconsistency"
+  ],
+  "3558": [
+    "anomaly"
+  ],
+  "2909": [
+    "case_inconsistency"
+  ],
+  "1580": [
+    "missing_value"
+  ],
+  "2058": [
+    "missing_value"
+  ],
+  "1454": [
+    "anomaly"
+  ],
+  "346": [
+    "missing_value"
+  ],
+  "503": [
+    "missing_value"
+  ],
+  "2390": [
+    "case_inconsistency"
+  ],
+  "1236": [
+    "negative_value"
+  ],
+  "719": [
+    "bad_date"
+  ],
+  "4178": [
+    "anomaly"
+  ],
+  "3533": [
+    "bad_date"
+  ],
+  "3629": [
+    "missing_value"
+  ],
+  "3734": [
+    "anomaly"
+  ],
+  "817": [
+    "missing_value"
+  ],
+  "3020": [
+    "case_inconsistency"
+  ],
+  "1124": [
+    "whitespace"
+  ],
+  "415": [
+    "bad_date"
+  ],
+  "2044": [
+    "whitespace"
+  ],
+  "2668": [
+    "bad_date"
+  ],
+  "5000": [
+    "duplicate"
+  ],
+  "5001": [
+    "duplicate"
+  ],
+  "5002": [
+    "duplicate"
+  ],
+  "5003": [
+    "duplicate"
+  ],
+  "5004": [
+    "duplicate"
+  ],
+  "5005": [
+    "duplicate"
+  ],
+  "5006": [
+    "duplicate"
+  ],
+  "5007": [
+    "duplicate"
+  ],
+  "5008": [
+    "duplicate"
+  ],
+  "5009": [
+    "duplicate"
+  ],
+  "5010": [
+    "duplicate"
+  ],
+  "5011": [
+    "duplicate"
+  ],
+  "5012": [
+    "duplicate"
+  ],
+  "5013": [
+    "duplicate"
+  ],
+  "5014": [
+    "duplicate"
+  ],
+  "5015": [
+    "duplicate"
+  ],
+  "5016": [
+    "duplicate"
+  ],
+  "5017": [
+    "duplicate"
+  ],
+  "5018": [
+    "duplicate"
+  ],
+  "5019": [
+    "duplicate"
+  ],
+  "5020": [
+    "duplicate"
+  ],
+  "5021": [
+    "duplicate"
+  ],
+  "5022": [
+    "duplicate"
+  ],
+  "5023": [
+    "duplicate"
+  ],
+  "5024": [
+    "duplicate"
+  ],
+  "5025": [
+    "duplicate"
+  ],
+  "5026": [
+    "duplicate"
+  ],
+  "5027": [
+    "duplicate"
+  ],
+  "5028": [
+    "duplicate"
+  ],
+  "5029": [
+    "duplicate"
+  ],
+  "5030": [
+    "duplicate"
+  ],
+  "5031": [
+    "duplicate"
+  ],
+  "5032": [
+    "duplicate"
+  ],
+  "5033": [
+    "duplicate"
+  ],
+  "5034": [
+    "duplicate"
+  ],
+  "5035": [
+    "duplicate"
+  ],
+  "5036": [
+    "duplicate"
+  ],
+  "5037": [
+    "duplicate"
+  ],
+  "5038": [
+    "duplicate"
+  ],
+  "5039": [
+    "duplicate"
+  ],
+  "5040": [
+    "duplicate"
+  ],
+  "5041": [
+    "duplicate"
+  ],
+  "5042": [
+    "duplicate"
+  ],
+  "5043": [
+    "duplicate"
+  ],
+  "5044": [
+    "duplicate"
+  ],
+  "5045": [
+    "duplicate"
+  ],
+  "5046": [
+    "duplicate"
+  ],
+  "5047": [
+    "duplicate"
+  ],
+  "5048": [
+    "duplicate"
+  ],
+  "5049": [
+    "duplicate"
+  ],
+  "5050": [
+    "duplicate"
+  ],
+  "5051": [
+    "duplicate"
+  ],
+  "5052": [
+    "duplicate"
+  ],
+  "5053": [
+    "duplicate"
+  ],
+  "5054": [
+    "duplicate"
+  ],
+  "5055": [
+    "duplicate"
+  ],
+  "5056": [
+    "duplicate"
+  ],
+  "5057": [
+    "duplicate"
+  ],
+  "5058": [
+    "duplicate"
+  ],
+  "5059": [
+    "duplicate"
+  ],
+  "5060": [
+    "duplicate"
+  ],
+  "5061": [
+    "duplicate"
+  ],
+  "5062": [
+    "duplicate"
+  ],
+  "5063": [
+    "duplicate"
+  ],
+  "5064": [
+    "duplicate"
+  ],
+  "5065": [
+    "duplicate"
+  ],
+  "5066": [
+    "duplicate"
+  ],
+  "5067": [
+    "duplicate"
+  ],
+  "5068": [
+    "duplicate"
+  ],
+  "5069": [
+    "duplicate"
+  ],
+  "5070": [
+    "duplicate"
+  ],
+  "5071": [
+    "duplicate"
+  ],
+  "5072": [
+    "duplicate"
+  ],
+  "5073": [
+    "duplicate"
+  ],
+  "5074": [
+    "duplicate"
+  ],
+  "5075": [
+    "duplicate"
+  ],
+  "5076": [
+    "duplicate"
+  ],
+  "5077": [
+    "duplicate"
+  ],
+  "5078": [
+    "duplicate"
+  ],
+  "5079": [
+    "duplicate"
+  ],
+  "5080": [
+    "duplicate"
+  ],
+  "5081": [
+    "duplicate"
+  ],
+  "5082": [
+    "duplicate"
+  ],
+  "5083": [
+    "duplicate"
+  ],
+  "5084": [
+    "duplicate"
+  ],
+  "5085": [
+    "duplicate"
+  ],
+  "5086": [
+    "duplicate"
+  ],
+  "5087": [
+    "duplicate"
+  ],
+  "5088": [
+    "duplicate"
+  ],
+  "5089": [
+    "duplicate"
+  ],
+  "5090": [
+    "duplicate"
+  ],
+  "5091": [
+    "duplicate"
+  ],
+  "5092": [
+    "duplicate"
+  ],
+  "5093": [
+    "duplicate"
+  ],
+  "5094": [
+    "duplicate"
+  ],
+  "5095": [
+    "duplicate"
+  ],
+  "5096": [
+    "duplicate"
+  ],
+  "5097": [
+    "duplicate"
+  ],
+  "5098": [
+    "duplicate"
+  ],
+  "5099": [
+    "duplicate"
+  ],
+  "5100": [
+    "duplicate"
+  ],
+  "5101": [
+    "duplicate"
+  ],
+  "5102": [
+    "duplicate"
+  ],
+  "5103": [
+    "duplicate"
+  ],
+  "5104": [
+    "duplicate"
+  ],
+  "5105": [
+    "duplicate"
+  ],
+  "5106": [
+    "duplicate"
+  ],
+  "5107": [
+    "duplicate"
+  ],
+  "5108": [
+    "duplicate"
+  ],
+  "5109": [
+    "duplicate"
+  ],
+  "5110": [
+    "duplicate"
+  ],
+  "5111": [
+    "duplicate"
+  ],
+  "5112": [
+    "duplicate"
+  ],
+  "5113": [
+    "duplicate"
+  ],
+  "5114": [
+    "duplicate"
+  ],
+  "5115": [
+    "duplicate"
+  ],
+  "5116": [
+    "duplicate"
+  ],
+  "5117": [
+    "duplicate"
+  ],
+  "5118": [
+    "duplicate"
+  ],
+  "5119": [
+    "duplicate"
+  ],
+  "5120": [
+    "duplicate"
+  ],
+  "5121": [
+    "duplicate"
+  ],
+  "5122": [
+    "duplicate"
+  ],
+  "5123": [
+    "duplicate"
+  ],
+  "5124": [
+    "duplicate"
+  ],
+  "5125": [
+    "duplicate"
+  ],
+  "5126": [
+    "duplicate"
+  ],
+  "5127": [
+    "duplicate"
+  ],
+  "5128": [
+    "duplicate"
+  ],
+  "5129": [
+    "duplicate"
+  ],
+  "5130": [
+    "duplicate"
+  ],
+  "5131": [
+    "duplicate"
+  ],
+  "5132": [
+    "duplicate"
+  ],
+  "5133": [
+    "duplicate"
+  ],
+  "5134": [
+    "duplicate"
+  ],
+  "5135": [
+    "duplicate"
+  ],
+  "5136": [
+    "duplicate"
+  ],
+  "5137": [
+    "duplicate"
+  ],
+  "5138": [
+    "duplicate"
+  ],
+  "5139": [
+    "duplicate"
+  ],
+  "5140": [
+    "duplicate"
+  ],
+  "5141": [
+    "duplicate"
+  ],
+  "5142": [
+    "duplicate"
+  ],
+  "5143": [
+    "duplicate"
+  ],
+  "5144": [
+    "duplicate"
+  ],
+  "5145": [
+    "duplicate"
+  ],
+  "5146": [
+    "duplicate"
+  ],
+  "5147": [
+    "duplicate"
+  ],
+  "5148": [
+    "duplicate"
+  ],
+  "5149": [
+    "duplicate"
+  ]
+}

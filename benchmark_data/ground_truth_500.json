@@ -1,0 +1,347 @@
+{
+  "163": [
+    "mixed_type"
+  ],
+  "138": [
+    "anomaly"
+  ],
+  "422": [
+    "negative_value"
+  ],
+  "39": [
+    "bad_date"
+  ],
+  "292": [
+    "bad_date"
+  ],
+  "190": [
+    "whitespace"
+  ],
+  "61": [
+    "negative_value"
+  ],
+  "257": [
+    "anomaly"
+  ],
+  "344": [
+    "anomaly"
+  ],
+  "461": [
+    "missing_value"
+  ],
+  "26": [
+    "anomaly"
+  ],
+  "91": [
+    "whitespace"
+  ],
+  "114": [
+    "bad_date"
+  ],
+  "411": [
+    "missing_value"
+  ],
+  "264": [
+    "anomaly"
+  ],
+  "23": [
+    "negative_value"
+  ],
+  "205": [
+    "whitespace"
+  ],
+  "35": [
+    "negative_value"
+  ],
+  "449": [
+    "missing_value"
+  ],
+  "238": [
+    "negative_value"
+  ],
+  "443": [
+    "missing_value"
+  ],
+  "144": [
+    "bad_date"
+  ],
+  "396": [
+    "missing_value"
+  ],
+  "432": [
+    "bad_date"
+  ],
+  "159": [
+    "case_inconsistency"
+  ],
+  "167": [
+    "missing_value"
+  ],
+  "44": [
+    "negative_value"
+  ],
+  "283": [
+    "anomaly"
+  ],
+  "233": [
+    "mixed_type"
+  ],
+  "4": [
+    "case_inconsistency"
+  ],
+  "188": [
+    "case_inconsistency"
+  ],
+  "102": [
+    "anomaly"
+  ],
+  "149": [
+    "whitespace"
+  ],
+  "288": [
+    "missing_value"
+  ],
+  "401": [
+    "missing_value"
+  ],
+  "155": [
+    "anomaly"
+  ],
+  "378": [
+    "anomaly"
+  ],
+  "318": [
+    "bad_date"
+  ],
+  "124": [
+    "negative_value"
+  ],
+  "237": [
+    "missing_value"
+  ],
+  "469": [
+    "anomaly"
+  ],
+  "302": [
+    "whitespace"
+  ],
+  "252": [
+    "anomaly"
+  ],
+  "395": [
+    "bad_date"
+  ],
+  "397": [
+    "missing_value"
+  ],
+  "100": [
+    "missing_value"
+  ],
+  "375": [
+    "mixed_type"
+  ],
+  "279": [
+    "whitespace"
+  ],
+  "389": [
+    "missing_value"
+  ],
+  "407": [
+    "mixed_type"
+  ],
+  "125": [
+    "bad_date"
+  ],
+  "77": [
+    "anomaly"
+  ],
+  "3": [
+    "negative_value"
+  ],
+  "209": [
+    "whitespace"
+  ],
+  "12": [
+    "anomaly"
+  ],
+  "119": [
+    "anomaly"
+  ],
+  "277": [
+    "negative_value"
+  ],
+  "177": [
+    "whitespace"
+  ],
+  "325": [
+    "mixed_type"
+  ],
+  "429": [
+    "missing_value"
+  ],
+  "355": [
+    "negative_value"
+  ],
+  "470": [
+    "mixed_type"
+  ],
+  "171": [
+    "mixed_type"
+  ],
+  "0": [
+    "case_inconsistency"
+  ],
+  "388": [
+    "anomaly"
+  ],
+  "336": [
+    "case_inconsistency"
+  ],
+  "192": [
+    "missing_value"
+  ],
+  "377": [
+    "bad_date"
+  ],
+  "372": [
+    "case_inconsistency"
+  ],
+  "157": [
+    "whitespace"
+  ],
+  "53": [
+    "bad_date"
+  ],
+  "105": [
+    "mixed_type"
+  ],
+  "271": [
+    "anomaly"
+  ],
+  "121": [
+    "bad_date"
+  ],
+  "214": [
+    "missing_value"
+  ],
+  "251": [
+    "missing_value"
+  ],
+  "30": [
+    "case_inconsistency"
+  ],
+  "72": [
+    "bad_date"
+  ],
+  "364": [
+    "anomaly"
+  ],
+  "143": [
+    "anomaly"
+  ],
+  "47": [
+    "anomaly"
+  ],
+  "22": [
+    "case_inconsistency"
+  ],
+  "118": [
+    "missing_value"
+  ],
+  "266": [
+    "mixed_type"
+  ],
+  "211": [
+    "anomaly"
+  ],
+  "358": [
+    "anomaly"
+  ],
+  "494": [
+    "bad_date"
+  ],
+  "234": [
+    "missing_value"
+  ],
+  "382": [
+    "anomaly"
+  ],
+  "43": [
+    "whitespace"
+  ],
+  "297": [
+    "case_inconsistency"
+  ],
+  "48": [
+    "negative_value"
+  ],
+  "258": [
+    "anomaly"
+  ],
+  "68": [
+    "missing_value"
+  ],
+  "326": [
+    "missing_value"
+  ],
+  "201": [
+    "anomaly"
+  ],
+  "38": [
+    "case_inconsistency"
+  ],
+  "303": [
+    "whitespace"
+  ],
+  "290": [
+    "missing_value"
+  ],
+  "31": [
+    "anomaly"
+  ],
+  "500": [
+    "duplicate"
+  ],
+  "501": [
+    "duplicate"
+  ],
+  "502": [
+    "duplicate"
+  ],
+  "503": [
+    "duplicate"
+  ],
+  "504": [
+    "duplicate"
+  ],
+  "505": [
+    "duplicate"
+  ],
+  "506": [
+    "duplicate"
+  ],
+  "507": [
+    "duplicate"
+  ],
+  "508": [
+    "duplicate"
+  ],
+  "509": [
+    "duplicate"
+  ],
+  "510": [
+    "duplicate"
+  ],
+  "511": [
+    "duplicate"
+  ],
+  "512": [
+    "duplicate"
+  ],
+  "513": [
+    "duplicate"
+  ],
+  "514": [
+    "duplicate"
+  ]
+}

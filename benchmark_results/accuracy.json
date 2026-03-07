@@ -1,0 +1,52 @@
+[
+  {
+    "rows": 100,
+    "total_errors": 23,
+    "tp": 9,
+    "fp": 7,
+    "fn": 14,
+    "precision": 0.5625,
+    "recall": 0.3913,
+    "f1": 0.4615
+  },
+  {
+    "rows": 500,
+    "total_errors": 115,
+    "tp": 50,
+    "fp": 25,
+    "fn": 65,
+    "precision": 0.6667,
+    "recall": 0.4348,
+    "f1": 0.5263
+  },
+  {
+    "rows": 1000,
+    "total_errors": 230,
+    "tp": 105,
+    "fp": 56,
+    "fn": 125,
+    "precision": 0.6522,
+    "recall": 0.4565,
+    "f1": 0.5371
+  },
+  {
+    "rows": 5000,
+    "total_errors": 1150,
+    "tp": 521,
+    "fp": 283,
+    "fn": 629,
+    "precision": 0.648,
+    "recall": 0.453,
+    "f1": 0.5333
+  },
+  {
+    "rows": 10000,
+    "total_errors": 2300,
+    "tp": 1073,
+    "fp": 522,
+    "fn": 1227,
+    "precision": 0.6727,
+    "recall": 0.4665,
+    "f1": 0.551
+  }
+]

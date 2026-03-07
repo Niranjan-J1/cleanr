@@ -1,0 +1,71 @@
+{
+  "92": [
+    "missing_value"
+  ],
+  "64": [
+    "anomaly"
+  ],
+  "54": [
+    "bad_date"
+  ],
+  "70": [
+    "case_inconsistency"
+  ],
+  "57": [
+    "missing_value"
+  ],
+  "20": [
+    "anomaly"
+  ],
+  "95": [
+    "anomaly"
+  ],
+  "60": [
+    "missing_value"
+  ],
+  "33": [
+    "bad_date"
+  ],
+  "96": [
+    "mixed_type"
+  ],
+  "31": [
+    "anomaly"
+  ],
+  "81": [
+    "mixed_type"
+  ],
+  "35": [
+    "mixed_type"
+  ],
+  "98": [
+    "missing_value"
+  ],
+  "99": [
+    "negative_value"
+  ],
+  "66": [
+    "mixed_type"
+  ],
+  "62": [
+    "case_inconsistency"
+  ],
+  "80": [
+    "case_inconsistency"
+  ],
+  "30": [
+    "anomaly"
+  ],
+  "56": [
+    "anomaly"
+  ],
+  "100": [
+    "duplicate"
+  ],
+  "101": [
+    "duplicate"
+  ],
+  "102": [
+    "duplicate"
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "rows": 100,
+    "pandas_ms": 34.59,
+    "cleanr_ms": 145.14,
+    "pandas_mb": 0.02,
+    "cleanr_mb": 0.06,
+    "speedup": 0.24,
+    "rows_per_s": 688
+  },
+  {
+    "rows": 500,
+    "pandas_ms": 99.94,
+    "cleanr_ms": 224.33,
+    "pandas_mb": 0.07,
+    "cleanr_mb": 0.12,
+    "speedup": 0.45,
+    "rows_per_s": 2228
+  },
+  {
+    "rows": 1000,
+    "pandas_ms": 181.92,
+    "cleanr_ms": 325.22,
+    "pandas_mb": 0.13,
+    "cleanr_mb": 0.2,
+    "speedup": 0.56,
+    "rows_per_s": 3074
+  },
+  {
+    "rows": 5000,
+    "pandas_ms": 767.58,
+    "cleanr_ms": 1033.45,
+    "pandas_mb": 0.65,
+    "cleanr_mb": 0.89,
+    "speedup": 0.74,
+    "rows_per_s": 4838
+  },
+  {
+    "rows": 10000,
+    "pandas_ms": 2591.26,
+    "cleanr_ms": 2074.18,
+    "pandas_mb": 1.29,
+    "cleanr_mb": 1.76,
+    "speedup": 1.25,
+    "rows_per_s": 4821
+  },
+  {
+    "rows": 50000,
+    "pandas_ms": 9229.59,
+    "cleanr_ms": 8469.53,
+    "pandas_mb": 6.4,
+    "cleanr_mb": 8.67,
+    "speedup": 1.09,
+    "rows_per_s": 5903
+  },
+  {
+    "rows": 100000,
+    "pandas_ms": 15185.41,
+    "cleanr_ms": 17087.71,
+    "pandas_mb": 12.78,
+    "cleanr_mb": 17.32,
+    "speedup": 0.89,
+    "rows_per_s": 5852
+  }
+]
