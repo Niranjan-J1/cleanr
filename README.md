@@ -54,7 +54,7 @@ FastAPI Backend (/upload, /report, /fix, /download)
 
 ### Latency
 
-<img width="1934" height="772" alt="image" src="https://github.com/user-attachments/assets/8f185e64-53bf-416f-9610-4410f025110b" />
+<img width="1934" height="742" alt="image" src="https://github.com/user-attachments/assets/d932ea30-2a9f-412b-a8ad-2c0b839447ca" />
 
 
 | Rows | Total | Rows/sec |
@@ -64,6 +64,8 @@ FastAPI Backend (/upload, /report, /fix, /download)
 | 100,000 | **7.8s** | 13,257 |
 
 ### Performance vs Pandas Baseline
+
+<img width="1934" height="772" alt="image" src="https://github.com/user-attachments/assets/8f185e64-53bf-416f-9610-4410f025110b" />
 
 | Rows | Pandas | CLEANR | Speedup |
 |------|--------|--------|---------|
