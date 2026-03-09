@@ -54,6 +54,9 @@ FastAPI Backend (/upload, /report, /fix, /download)
 
 ### Latency
 
+<img width="1934" height="772" alt="image" src="https://github.com/user-attachments/assets/8f185e64-53bf-416f-9610-4410f025110b" />
+
+
 | Rows | Total | Rows/sec |
 |------|-------|----------|
 | 1,000 | **128ms** | 8,074 |
